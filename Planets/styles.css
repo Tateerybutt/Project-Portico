@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.planet-box {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    cursor: pointer;
+    background-color: black;
+}
+
+.planet-image {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.converter-container {
+    margin-left: 50%;
+    align-self: center;
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* max-width: 400px; */
+    padding: 20px;
+    border: 8px solid black;
+    border-radius: 50px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: fadeInUp 0.5s ease;
+}
+
+@media screen and (max-width: 800px) {
+    .heading{
+        display: none;
+    }
+    input{
+        width: 100px;
+    }
+}
+
+#inputs {
+    margin-top: 20px;
+}
+
+#mercury {
+    color: rgb(169, 169, 169);
+}
+
+#venus {
+    color: rgb(255, 165, 0);
+}
+
+#earth {
+    color: rgb(0, 191, 255);
+}
+
+#mars {
+    color: rgb(255, 69, 0);
+}
+
+#jupiter {
+    color: rgb(255, 222, 173);
+}
+
+#saturn {
+    color: rgb(210, 180, 140);
+}
+
+#uranus {
+    color: rgb(173, 216, 230);
+}
+
+#neptune {
+    color: rgb(30, 30, 206);
+}
+
+#pluto {
+    color: rgb(128, 128, 128);
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

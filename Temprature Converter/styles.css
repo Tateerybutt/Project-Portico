@@ -1,0 +1,90 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.google-converter-container {
+    border: #000 solid 3px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    justify-content: space-between;
+    align-items: center;
+    max-width: 300px;
+    width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+    @media only screen and (max-width: 600px) {
+        body {
+            font-size: 16px;
+            /* Adjust font size for better readability on smaller screens */
+        }
+
+        .google-converter-container {
+            width: 300px;
+        }
+
+        /* Adjust other styles as needed for mobile view */
+    }
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.input-box,
+.output-box {
+    border: 3px solid #000;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+input,
+select {
+    margin-bottom: 15px;
+    padding: 20px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+}
+
+select:hover {
+    background-color: #f5f5f5;
+}
+
+.arrow-container {
+    font-size: 24px;
+    margin: auto 130px;
+    cursor: pointer;
+}
+
+.arrow-container:hover {
+    color: #ccc;
+}
+
+a.linkedin-link {
+    color: #888;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+a.linkedin-link i {
+    font-size: 24px;
+    margin: 5px;
+}
+
+a.linkedin-link:hover {
+    color: #0077b5;
+}

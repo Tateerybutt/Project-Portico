@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-...your-sha-hash-here..." crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="icons8-high-temprature-24.png" type="image/x-icon">
+    <title>Temperature Converter</title>
+</head>
+
+<body>
+
+    <div class="google-converter-container">
+        <h2>Temperature Converter</h2><br>
+
+        <div class="input-box">
+            <select id="inputUnit" onchange="convertTemperature()">
+                <option value="celsius">Celsius</option>
+                <option value="fahrenheit">Fahrenheit</option>
+                <option value="kelvin">Kelvin</option>
+            </select>
+
+            <div class="converter-input">
+                <input type="number" id="inputTemperature" placeholder="Temperature" oninput="convertTemperature()">
+            </div>
+        </div>
+
+        <div class="arrow-container" onclick="swapUnits()">
+            <div class="arrow">&#8652;</div>
+        </div>
+
+        <div class="output-box">
+            <select id="outputUnit" onchange="convertTemperature()">
+                <option value="fahrenheit">Fahrenheit</option>
+                <option value="celsius">Celsius</option>
+                <option value="kelvin">Kelvin</option>
+            </select>
+
+            <div class="converter-input">
+                <input type="number" id="outputTemperature" placeholder="Result" readonly>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js">
+    </script>
+</body>
+
+</html>
