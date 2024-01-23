@@ -48,4 +48,4 @@ Welcome to ProjectPortico, a showcase of my web and full-stack development proje
 
 1. Clone the repository.
    ```bash
-   git clone https://github.com/your-username/ProjectPortico.git
+   git clone https://github.com/Tateerybutt/ProjectPortico.git
