@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+        }
+
+        h1{
+            font-size: 48px;
+        }
+
+        header {
+            width: 100%;
+            position: fixed;
+            background-color: #B07A66;
+            color: #000;
+            text-align: center;
+            padding: 3px;
+        }
+
+        #projects {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 2em;
+        }
+
+        .project {
+            box-shadow: 0 4px 8px 0 rgba(225, 225, 225, 0.5);
+            background-color: #B07A66;
+            color: #000;
+            border: none;
+            border-radius: 5px;
+            padding: 1em;
+            margin: 1em;
+            width: 300px;
+            cursor: default;
+            transition: box-shadow 0.3s ease-in-out;
+        }
+
+        .project:hover{
+            box-shadow: 0 6px 12px 0 rgba(225, 225, 225, 0.9);
+        }
+
+        .project img {
+            border: 3px #000 solid;
+            width: 100%;
+            height: auto;
+            border-radius: 12px;
+            margin-bottom: 1em;
+        }
+
+        footer {
+            background-color: #B07A66;
+            color: #000;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+    <title>Project Portico</title>
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <header>
+        <h1>Project Portico</h1>
+    </header>
+    <br><br><br><br><br>
+    <section id="projects">
+        <article class="project" onclick="openLink('to-do app/index.html')">
+            <img src="images/to-do app image.jpg" alt="Temperature Converter Image">
+            <h2>To-Do Application</h2>
+            <p>A sleek, intuitive todo app designed for seamless task management and productivity.</p>
+        </article>
+
+        <article class="project" onclick="openLink('Calculator/index.html')">
+            <img src="images/Calculator Image.jpg" alt="Calculator Image">
+            <h2>Calculator</h2>
+            <p>Math Maestro: Your go-to calculator for swift calculations.</p>
+        </article>
+
+        <article class="project" onclick="openLink('BMI Calculator/index.html')">
+            <img src="images/BMI Calculator Image.jpg" alt="Temperature Converter Image">
+            <h2>BMI Calculator</h2>
+            <p>An essential BMI calculator for tracking your body mass index and maintaining a healthy lifestyle.</p>
+        </article>
+
+        <article class="project" onclick="openLink('Temprature Converter/index.html')">
+            <img src="images/Temprature Converter Image.jpg" alt="Temperature Converter Image">
+            <h2>Temperature Converter</h2>
+            <p>Temperature Wizard: Celsius, Fahrenheit, Kelvin Converter.</p>
+        </article>
+
+        <article class="project" onclick="openLink('Weather app/index.html')">
+            <img src="images/Weather app image.jpg" alt="Temperature Converter Image">
+            <h2>Weather App</h2>
+            <p>WeatherWhiz: Your forecast companion on the go.</p>
+        </article>
+
+        <article class="project" onclick="openLink('Countdown Timer/index.html')">
+            <img src="images/Countdown Timer image.jpg" alt="Temperature Converter Image">
+            <h2>Countdown Timer</h2>
+            <p>Countdown Champ: Precision timer for every occasion.</p>
+        </article>
+
+        <article class="project" onclick="openLink('Random Quote Generator/index.html')">
+            <img src="images/Random Quote Generator image.jpg" alt="Temperature Converter Image">
+            <h2>Random Quote Generator</h2>
+            <p>Quote Genie: Unleash wisdom with a click.</p>
+        </article>
+
+        <article class="project" onclick="openLink('Tic-Tac-Toe/index.html')">
+            <img src="images/Tic-Tac-Toe image.jpg" alt="Temperature Converter Image">
+            <h2>Tic-Tac-Toe</h2>
+            <p>Tic-Tac-Toe Pro: Classic game, endless fun.</p>
+        </article>
+
+        <article class="project" onclick="openLink('Planets/index.html')">
+            <img src="images/Planets image.jpg" alt="Temperature Converter Image">
+            <h2>Planet Age and Weight Teller</h2>
+            <p>Cosmic age and weight calculator for interplanetary insights.</p>
+        </article>
+
+        <article class="project" onclick="openLink('Image Slider/index.html')">
+            <img src="images/Image Slider.jpg" alt="Temperature Converter Image">
+            <h2>Image Slider</h2>
+            <p>SlideSnap: Effortless image slider for stunning visuals.</p>
+        </article>
+
+        <articl class="project" onclick="openLink('Quiz App/index.html')">
+            <img src="images/Quiz App image.jpg" alt="Quiz Application Image">
+            <h2>Quiz Application</h2>
+            <p>Tough Questions: Tough Questions with Many types</p>
+        </article>
+
+    </section>
+    <br><br><br>
+
+    <footer>
+        <p>&copy; 2024 Project Portico. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function openLink(link) {
+            window.open(link, '_blank');
+        }
+    </script>
+
+</body>
+
+</html>
