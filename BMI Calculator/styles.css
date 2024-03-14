@@ -34,7 +34,7 @@ body {
   button {
     margin-top: 10px;
     cursor: pointer;
-    background-color: black;
+    background-color: #70d249;
     color: white;
     padding: 8px 16px;
     border: none;
@@ -44,7 +44,7 @@ body {
 
   button:hover {
     background-color: white;
-    color: black;
+    color: #70d249;
   }
 
   #result {

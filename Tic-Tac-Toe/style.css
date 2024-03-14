@@ -9,7 +9,7 @@ body {
 }
 
 .game-container {
-    border: #000 6px solid;
+    border: #70d249 6px solid;
     border-radius: 30px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
@@ -26,11 +26,11 @@ body {
 .cell {
     font-size: 48px;
     display: flex;
-    color: black;
+    color: #70d249;
     align-items: center;
     justify-content: center;
     font-weight: bold;
-    border: 3px solid black;
+    border: 3px solid #70d249;
     border-radius: 50%;
     cursor: pointer;
     transition: color 1s;
@@ -45,13 +45,13 @@ body {
 #result {
     margin: 0px 100px;
     display: none;
-    border: #000 3px solid;
+    border: #70d249 3px solid;
     border-radius: 10px;
     font-weight: bold;
     margin-top: 10px;
     text-align: center;
     font-size: 18px;
-    color: black;
+    color: #70d249;
 }
 
 #result:hover{
@@ -65,8 +65,8 @@ body {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
-    color: #000;
-    border: #000 3px solid;
+    color: #70d249;
+    border: #70d249 3px solid;
     border-radius: 5px;
     transition: background-color 1s;
     transition: color 1s;

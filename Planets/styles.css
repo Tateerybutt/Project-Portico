@@ -9,7 +9,7 @@ body {
     padding: 10px;
     display: inline-block;
     cursor: pointer;
-    background-color: black;
+    background-color: #70d249;
 }
 
 .planet-image {
@@ -27,7 +27,7 @@ body {
     text-align: center;
     /* max-width: 400px; */
     padding: 20px;
-    border: 8px solid black;
+    border: 8px solid #70d249;
     border-radius: 50px;
     background-color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);

@@ -14,7 +14,7 @@ body {
     text-align: center;
     width: 80%;
     padding: 20px;
-    border: 8px solid black;
+    border: 8px solid #70d249;
     border-radius: 50px;
     background-color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -40,23 +40,23 @@ input {
     font-size: 20px;
     border: none;
     border-radius: 5px;
-    outline: black 3px solid;
+    outline: #70d249 3px solid;
 }
 
 button {
     margin: 5px;
     font-size: 20px;
-    border: black 3px solid;
+    border: #70d249 3px solid;
     border-radius: 5px;
     cursor: pointer;
-    background-color: black;
+    background-color: #70d249;
     color: #fff;
     transition: background-color 0.3s ease;
 }
 
 button:hover {
     background-color: white;
-    color: black;
+    color: #70d249;
 }
 
 .clr-btn {
@@ -64,16 +64,16 @@ button:hover {
     max-height: 60px;
     margin: 5px;
     font-size: 20px;
-    border: black 3px solid;
+    border: #70d249 3px solid;
     border-radius: 5px;
     cursor: pointer;
-    background-color: black;
+    background-color: #70d249;
     color: #fff;
     transition: background-color 0.3s ease;
 }
 
 .history {
-    border: black 3px solid;
+    border: #70d249 3px solid;
     text-align: left;
     height: 100px;
     max-height: 100px;
@@ -84,7 +84,7 @@ button:hover {
 }
 
 .history p {
-    color: black;
+    color: #70d249;
     margin: 5px 0;
     white-space: nowrap;
     overflow: hidden;
@@ -92,7 +92,7 @@ button:hover {
 }
 
 strong {
-    color: black;
+    color: #70d249;
     font-weight: 900;
 }
 
