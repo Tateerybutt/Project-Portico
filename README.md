@@ -44,6 +44,14 @@ Welcome to ProjectPortico, a showcase of my web and full-stack development proje
 - **Description:** Explore all projects in one place on the ProjectPortico website.
 - **Technologies:** HTML5, CSS3, JavaScript.
 
+### 11. Quiz Application
+- **Description:** Answer the tough and different topic related questions an review your score.
+- **Technologies:** HTML5, CSS3, JavaScript
+
+### 11. Quiz Application
+- **Description:** Dive into an immersive visual journey with our dynamic photo gallery, where every click unveils a captivating moment captured in time.
+- **Technologies:** HTML5, CSS3, JavaScript
+
 ## Installation
 
 1. Clone the repository.
