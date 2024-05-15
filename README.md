@@ -48,8 +48,20 @@ Welcome to ProjectPortico, a showcase of my web and full-stack development proje
 - **Description:** Answer the tough and different topic related questions an review your score.
 - **Technologies:** HTML5, CSS3, JavaScript
 
-### 11. Quiz Application
+### 11. Gallery
 - **Description:** Dive into an immersive visual journey with our dynamic photo gallery, where every click unveils a captivating moment captured in time.
+- **Technologies:** HTML5, CSS3, JavaScript
+
+### 11. Recipe Finder
+- **Description:** Quick Recipe: Search a recipe with ingredients in your kitchen
+- **Technologies:** HTML5, CSS3, JavaScript
+
+### 11. Fitness Tracker
+- **Description:** Elevate Your Fitness Journey: Track Progress, Train Smart, Transform Body.
+- **Technologies:** HTML5, CSS3, JavaScript
+
+### 11. Compound Information
+- **Description:** Delve into Compound Chronicles: Unveil Molecular Mysteries, Explore Properties, Ignite Curiosity!
 - **Technologies:** HTML5, CSS3, JavaScript
 
 ## Installation
