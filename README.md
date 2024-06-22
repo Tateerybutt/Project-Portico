@@ -64,6 +64,14 @@ Welcome to ProjectPortico, a showcase of my web and full-stack development proje
 - **Description:** Delve into Compound Chronicles: Unveil Molecular Mysteries, Explore Properties, Ignite Curiosity!
 - **Technologies:** HTML5, CSS3, JavaScript
 
+### 12. Currency Converter
+- **Description:** Convert Currency: 10 free currencies for conversion!
+- **Technologies:** HTML5, CSS3, JavaScript
+
+### 12. Expense Tracker
+- **Description:** Track Track: Stay Tracked with sleek Expense Tracker!
+- **Technologies:** HTML5, CSS3, JavaScript
+
 ## Installation
 
 1. Clone the repository.
