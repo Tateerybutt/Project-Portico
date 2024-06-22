@@ -5,9 +5,7 @@ function searchRecipes() {
     const apiUrl = `https://api.spoonacular.com/recipes/findByIngredients?ingredients=${searchInput}&apiKey=${apiKey}`;
     const loader = document.getElementById('loader');
 
-    setTimeout(() => {
-        loader.style.display = 'none';
-    }, 3000);
+    setTimeout(() => {}, 3000);
 
     fetch(apiUrl)
         .then(response => {
@@ -21,8 +19,6 @@ function searchRecipes() {
         })
         .catch(error => {
             console.error('Error fetching recipes:', error);
-            // Ensure loader is hidden in case of error
-            loader.style.display = 'none';
             document.getElementById('errmsg').innerHTML = '<p>Error fetching data - 404</p>'
         });
 }

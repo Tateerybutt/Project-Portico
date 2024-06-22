@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header id="header">
+        <img src="C:\Users\HOME PC\OneDrive\Desktop\web_apps\Project-Portico\logo.png" alt="Project Portico logo">
+        <h1>Project Portico</h1>
+    </header>
+    <nav id="navbar">
+        <a href="C:\Users\HOME PC\OneDrive\Desktop\web_apps\Project-Portico\index.html">Home</a>
+        <a href="C:\Users\HOME PC\OneDrive\Desktop\web_apps\Project-Portico\projects.html">Projects</a>
+        <a href="C:\Users\HOME PC\OneDrive\Desktop\web_apps\Project-Portico\contact.html">Contact</a>
+        <a href="C:\Users\HOME PC\OneDrive\Desktop\web_apps\Project-Portico\about.html">About</a>
+    </nav>
+    <br><br><br>
+    <div class="converter">
+        <h2>Currency Converter</h2>
+        <div class="input-group">
+            <input type="number" id="amount" placeholder="Enter amount">
+            <select id="fromCurrency">
+                <option value="CNY">Chinese Yuan (CNY)</option>
+                <option value="GBP">British Pound (GBP)</option>
+                <option value="CHF">Swiss Franc (CHF)</option>
+                <option value="NZD">New Zealand Dollar (NZD)</option>
+                <option value="AUD">Australian Dollar (AUD)</option>
+                <option value="KRW">South Korean Won (KRW)</option>
+                <option value="PLN">Polish Zloty (PLN)</option>
+                <option value="DKK">Danish Krone (DKK)</option>
+                <option value="TRY">Turkish New Lira (TRY)</option>
+                <option value="HKD">Hong Kong Dollar (HKD)</option>
+            </select>
+        </div>
+        <div class="output-group">
+            <input type="number" id="convertedAmount" placeholder="Converted amount" disabled>
+            <select id="toCurrency">
+                <option value="CNY">Chinese Yuan (CNY)</option>
+                <option value="GBP">British Pound (GBP)</option>
+                <option value="CHF">Swiss Franc (CHF)</option>
+                <option value="NZD">New Zealand Dollar (NZD)</option>
+                <option value="AUD">Australian Dollar (AUD)</option>
+                <option value="KRW">South Korean Won (KRW)</option>
+                <option value="PLN">Polish Zloty (PLN)</option>
+                <option value="DKK">Danish Krone (DKK)</option>
+                <option value="TRY">Turkish New Lira (TRY)</option>
+                <option value="HKD">Hong Kong Dollar (HKD)</option>
+            </select>
+
+        </div>
+        <button onclick="convertCurrency()">Convert</button>
+        <button onclick="swapDropdownOptions()" class="swap-button">⇌</button>
+
+    </div>
+    <br><br><br>
+
+    <footer>
+        <p>&copy; 2024 Project Portico. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

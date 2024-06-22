@@ -2,29 +2,46 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BMI Calculator</title>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="shortcut icon" href="icons8-bmi-64.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="icons8-bmi-64.png" type="image/x-icon">
 </head>
 
 <body>
-  <div id="calculator" class="calculator-container">
-    <h2>BMI Calculator</h2>
-    <label for="weight">Weight (kg): </label>
-    <input type="number" id="weight" placeholder="Enter your weight" required><br>
+    <header id="header">
+        <img src="C:\Users\HOME PC\OneDrive\Desktop\web_apps\Project-Portico\logo.png" alt="Project Portico logo">
+        <h1>Project Portico</h1>
+    </header>
+    <nav id="navbar">
+        <a href="C:\Users\HOME PC\OneDrive\Desktop\web_apps\Project-Portico\index.html">Home</a>
+        <a href="C:\Users\HOME PC\OneDrive\Desktop\web_apps\Project-Portico\projects.html">Projects</a>
+        <a href="C:\Users\HOME PC\OneDrive\Desktop\web_apps\Project-Portico\contact.html">Contact</a>
+        <a href="C:\Users\HOME PC\OneDrive\Desktop\web_apps\Project-Portico\about.html">About</a>
+    </nav>
+    <br><br><br>
 
-    <label for="height">Height (cm): </label>
-    <input type="number" id="height" placeholder="Enter your height" required>
+    <div id="calculator" class="calculator-container">
+        <h2>BMI Calculator</h2>
+        <label for="weight">Weight (kg): </label>
+        <input type="number" id="weight" placeholder="Enter your weight" required><br>
 
-    <button onclick="calculateBMI()">Calculate BMI</button>
+        <label for="height">Height (cm): </label>
+        <input type="number" id="height" placeholder="Enter your height" required><br>
 
-    <div id="result"></div>
-  </div>
+        <button onclick="calculateBMI()">Calculate BMI</button>
 
-  <script src="script.js">
-  </script>
+        <div id="result"></div>
+    </div>
+
+    <br><br><br>
+
+    <footer>
+        <p>&copy; 2024 Project Portico. All rights reserved.</p>
+    </footer>
+    <script src="script.js">
+    </script>
 </body>
 
 </html>

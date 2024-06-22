@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        h1 {
+            font-size: 48px;
+        }
+        
+        header img {
+            margin-top: 5px;
+            max-width: 100px;
+            max-height: 100px;
+        }
+        
+        header {
+            background-color: #fff;
+            color: #000;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        nav {
+            background-color: #70d249;
+            padding: 10px;
+            text-align: center;
+            overflow: hidden;
+        }
+        
+        .sticky {
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+        
+        .sticky+.content {
+            padding-top: 60px;
+        }
+        
+        nav a {
+            font-weight: bold;
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-left: #70d249 solid 2px;
+            border-right: #70d249 solid 2px;
+            margin: 3px 5px;
+        }
+        
+        .active {
+            text-decoration: underline 3px;
+        }
+        
+        nav a:hover {
+            border-left: #fff solid 2px;
+            border-right: #fff solid 2px;
+        }
+        
+        #about {
+            background-color: #fff;
+            width: 50%;
+            margin: 30.5px auto;
+            color: #70d249;
+            text-align: center;
+            border-radius: 5px;
+            padding: 14px;
+            border: #70d249 solid 3px;
+            /* box-shadow: 4px 6px 8px 0 rgba(0, 0, 0, 0.5); */
+        }
+        
+        #about img {
+            max-width: 100px;
+            margin: 0;
+        }
+        
+        #about a {
+            color: #70d249;
+            text-decoration: none;
+            font-weight: bolder;
+        }
+        
+        #about a:hover {
+            text-decoration: overline;
+        }
+        
+        footer {
+            background-color: #70d249;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            bottom: 0;
+        }
+        
+        @media screen and (max-width:600px) {
+            header h1 {
+                font-size: 35px;
+            }
+            header img {
+                display: none;
+            }
+        }
+    </style>
+    <title>Project Portico</title>
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+</head>
+
+<body>
+    <header id="header">
+        <img src="logo.png" alt="">
+        <h1>Project Portico</h1>
+    </header>
+    <nav id="navbar">
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+        <a class="active" href="about.html">About</a>
+    </nav>
+    <section id="about">
+        <img src="logo.png" alt="Project Portico logo">
+        <h2>Project Portico</h2>
+        <p>Project Portico is a collection of simple SPAs (Single Page Applications) like to-do app, weather app and more. These are the ideas for begginers in web development containg simple HTML, CSS and JavaScript. Feel free to reach us if have any idea
+            for a new project or just connect! You can use our <a href="mailto:abdullahscientist.no1@gmail.com">Email</a> or <a href="contact.html">Contact Page</a>.</p>
+    </section>
+    <br><br><br>
+
+    <footer>
+        <p>&copy; 2024 Project Portico. All rights reserved.</p>
+    </footer>
+
+    <script>
+        window.onscroll = function() {
+            stick()
+        };
+
+        var navbar = document.getElementById("navbar");
+        var header = document.getElementById("header");
+        var sticky = navbar.offsetTop;
+
+        function stick() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+            } else {
+                navbar.classList.remove("sticky");
+            }
+        }
+    </script>
+
+</body>
+
+</html>

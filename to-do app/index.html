@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,14 +8,32 @@
     <link rel="shortcut icon" href="icons8-todo-list-48.png" type="image/x-icon">
     <title>One-Page Todo List</title>
 </head>
+
 <body>
+    <header id="header">
+        <img src="C:\Users\HOME PC\OneDrive\Desktop\web_apps\Project-Portico\logo.png" alt="Project Portico logo">
+        <h1>Project Portico</h1>
+    </header>
+    <nav id="navbar">
+        <a href="C:\Users\HOME PC\OneDrive\Desktop\web_apps\Project-Portico\index.html">Home</a>
+        <a href="C:\Users\HOME PC\OneDrive\Desktop\web_apps\Project-Portico\projects.html">Projects</a>
+        <a href="C:\Users\HOME PC\OneDrive\Desktop\web_apps\Project-Portico\contact.html">Contact</a>
+        <a href="C:\Users\HOME PC\OneDrive\Desktop\web_apps\Project-Portico\about.html">About</a>
+    </nav>
+    <br><br><br>
     <div id="app">
         <h1>Todo List</h1>
         <input onkeydown="checkEnter(event)" type="text" id="taskInput" placeholder="Add a new task...">
         <button onclick="addTask()">Add Task</button>
         <ul id="taskList"></ul>
     </div>
-    <script src="app.js"></script>
+    <br><br><br>
+
+    <footer>
+        <p>&copy; 2024 Project Portico. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
     <script src="https://kit.fontawesome.com/5ba3ca3a53.js" crossorigin="anonymous"></script>
 </body>
+
 </html>

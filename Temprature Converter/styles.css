@@ -1,17 +1,71 @@
 body {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
     margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    padding: 0;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+header img {
+    margin-top: 5px;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+header {
+    background-color: #fff;
+    color: #000;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #70d249;
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky+.content {
+    padding-top: 60px;
+}
+
+nav a {
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-left: #70d249 solid 2px;
+    border-right: #70d249 solid 2px;
+    margin: 3px 5px;
+}
+
+.active {
+    text-decoration: underline 3px;
+}
+
+nav a:hover {
+    border-left: #fff solid 2px;
+    border-right: #fff solid 2px;
 }
 
 .google-converter-container {
-    border: #70d249 solid 3px;
+    margin: auto;
+    color: #fff;
     background-color: #fff;
     padding: 20px;
+    background-color: #70d249;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     justify-content: space-between;
@@ -26,11 +80,9 @@ body {
             font-size: 16px;
             /* Adjust font size for better readability on smaller screens */
         }
-
         .google-converter-container {
             width: 300px;
         }
-
         /* Adjust other styles as needed for mobile view */
     }
 }
@@ -42,6 +94,7 @@ h2 {
 
 .input-box,
 .output-box {
+    background-color: #fff;
     border: 3px solid #70d249;
     padding: 20px;
     border-radius: 8px;
@@ -49,8 +102,10 @@ h2 {
 
 input,
 select {
+    margin: auto;
     margin-bottom: 15px;
     padding: 20px;
+    width: 250px;
     border: none;
     outline: none;
     background-color: transparent;
@@ -87,4 +142,12 @@ a.linkedin-link i {
 
 a.linkedin-link:hover {
     color: #0077b5;
+}
+
+footer {
+    background-color: #70d249;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    bottom: 0;
 }
