@@ -13,41 +13,41 @@
             margin: 0;
             padding: 0;
         }
-        
+
         h1 {
             font-size: 48px;
         }
-        
+
         header img {
             margin-top: 5px;
             max-width: 100px;
             max-height: 100px;
         }
-        
+
         header {
             background-color: #fff;
             color: #000;
             padding: 20px;
             text-align: center;
         }
-        
+
         nav {
             background-color: #70d249;
             padding: 10px;
             text-align: center;
             overflow: hidden;
         }
-        
+
         .sticky {
             position: fixed;
             top: 0;
             width: 100%;
         }
-        
+
         .sticky+.content {
             padding-top: 60px;
         }
-        
+
         nav a {
             font-weight: bold;
             color: #fff;
@@ -57,16 +57,16 @@
             border-right: #70d249 solid 2px;
             margin: 3px 5px;
         }
-        
+
         .active {
             text-decoration: underline 3px;
         }
-        
+
         nav a:hover {
             border-left: #fff solid 2px;
             border-right: #fff solid 2px;
         }
-        
+
         .header {
             background-color: #70d249;
             border-radius: 12px 12px 0 0;
@@ -76,25 +76,27 @@
             justify-content: space-between;
             margin: auto;
             padding: 12px;
+
             a:hover {
                 text-decoration: underline;
             }
+
             a {
                 text-decoration: none;
                 color: #fff;
             }
         }
-        
-        a:hover {
+
+        .active {
             text-decoration: underline 3px;
         }
-        
+
         a {
             font-weight: bold;
             text-decoration: none;
             color: #70d249;
         }
-        
+
         #latest-projects {
             margin: 25px;
             display: flex;
@@ -102,7 +104,7 @@
             justify-content: space-around;
             padding: 2em;
         }
-        
+
         .project {
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
             background-color: #70d249;
@@ -115,11 +117,11 @@
             cursor: pointer;
             transition: box-shadow 0.3s ease-in-out;
         }
-        
+
         .project:hover {
             box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.9);
         }
-        
+
         .project img {
             border: 3px #70d249 solid;
             width: 100%;
@@ -127,17 +129,17 @@
             border-radius: 12px;
             margin-bottom: 1em;
         }
-        
+
         .posts {
             margin: 0;
             padding: 2em;
         }
-        
+
         .post {
             width: 90%;
             margin: auto;
         }
-        
+
         .title {
             border-radius: 5px 5px 0 0;
             padding: 14px 16px;
@@ -145,7 +147,7 @@
             text-align: center;
             background-color: #70d249;
         }
-        
+
         footer {
             background-color: #70d249;
             color: #fff;
@@ -153,17 +155,18 @@
             padding: 1em;
             bottom: 0;
         }
-        
+
         @media screen and (max-width:600px) {
             header h1 {
                 font-size: 35px;
             }
+
             header img {
                 display: none;
             }
         }
     </style>
-    <title>Project Portico</title>
+    <title>Project Portico - Project Portico</title>
     <link rel="shortcut icon" href="logo.png" type="image/x-icon">
 </head>
 
@@ -184,6 +187,12 @@
         <a href="projects.html">View all Projects</a>
     </div>
     <section id="latest-projects">
+        <article class="project" onclick="openLink('NoteNest/index.html')">
+            <img src="images/NoteNest Image.jpg" alt="NoteNest Image">
+            <h2>NoteNest</h2>
+            <p>Capture Every Thought, Anytime, Anywhere.</p>
+        </article>
+
         <article class="project" onclick="openLink('Expense Tracker/index.html')">
             <img src="images/Expense Tracker Image.jpg" alt="Expense Tracker Image">
             <h2>Expense Tracker</h2>
@@ -195,12 +204,6 @@
             <h2>Currency Converter</h2>
             <p>Convert Currency: 10 free currencies for conversion!</p>
         </article>
-
-        <article class="project" onclick="openLink('Compound Information/index.html')">
-            <img src="images/Compound Information Image.jpg" alt="Compound Information Image">
-            <h2>Compound Information</h2>
-            <p>Delve into Compound Chronicles: Unveil Molecular Mysteries, Explore Properties, Ignite Curiosity!</p>
-        </article>
     </section>
     <div class="header">
         <h2 style="margin: 0;">Latest Posts</h2>
@@ -208,33 +211,93 @@
     </div>
     <section class="posts">
         <article class="post">
-            <h4 class="title">Discover What's New at Project Portico: Enhanced Interface, Exciting Projects, and More!</h4>
+            <h4 class="title">Introducing NoteNest: Your Ultimate Note-Taking Solution!</h4>
+            <h3>Hello and Welcome to NoteNest!</h3>
+            <p>We’re excited to unveil <span style="color:#70d249">NoteNest</span>, the newest addition to Project
+                Portico! Designed with simplicity and efficiency in mind, NoteNest is here to help you stay organized
+                effortlessly. Whether it’s capturing quick ideas or managing daily tasks, NoteNest makes organization a
+                breeze.</p>
+
+            <h3>Why NoteNest?</h3>
+            <p>Our focus with <span style="color:#70d249">NoteNest</span> is to create a streamlined experience for
+                users who need an easy, accessible way to store their thoughts, ideas, and tasks. From a clean,
+                minimalist interface to intuitive task management features, NoteNest is built to help you stay
+                productive and focused.</p>
+
+            <h3>Key Features You’ll Love</h3>
+            <p><b>User-Friendly Design:</b> NoteNest offers a clutter-free interface, designed to help you focus solely
+                on your notes. The color scheme is chosen to be easy on the eyes, keeping your experience smooth and
+                enjoyable.</p>
+            <p><b>Accessible Across Devices:</b> Developed to work seamlessly on desktop platforms, NoteNest makes it
+                easy to capture ideas whenever inspiration strikes.</p>
+            <p><b>Instant Task Management:</b> Easily add, view, and delete notes with just a few clicks. Each task can
+                be managed directly within the main screen, saving you time and hassle.</p>
+
+            <h3>How NoteNest Works</h3>
+            <p>Getting started with <span style="color:#70d249">NoteNest</span> is simple! Just type a note, hit <b>Add
+                    Note</b>, and see it appear instantly. With the integrated delete function, organizing and
+                decluttering your notes is quick and easy. Plus, all your notes are saved locally, so you can pick up
+                right where you left off.</p>
+
+            <h3>Try NoteNest Today!</h3>
+            <p>Ready to stay organized? Give <span
+                    style="color:#70d249">NoteNest</span> a try. Whether you're looking to organize personal tasks or
+                plan your next project, NoteNest has got you covered.</p>
+
+            <h3>Looking Ahead</h3>
+            <p>We're committed to making <span style="color:#70d249">Project Portico</span> a hub for simple, effective
+                tools that enhance productivity. With NoteNest, we hope to add a valuable resource for students,
+                professionals, and creatives alike. Stay tuned for more updates, and thank you for being a part of our
+                journey!</p>
+        </article>
+        <hr>
+        <article class="post">
+            <h4 class="title">Discover What's New at Project Portico: Enhanced Interface, Exciting Projects, and More!
+            </h4>
             <h3>Hello and Welcome to Project Portico!</h3>
-            <p>We are thrilled to unveil the latest updates to <span style="color:#70d249">Project Portico</span>, designed to make your browsing experience more intuitive and powerful than ever before. Our team has been hard at work enhancing the interface
+            <p>We are thrilled to unveil the latest updates to <span style="color:#70d249">Project Portico</span>,
+                designed to make your browsing experience more intuitive and powerful than ever before. Our team has
+                been hard at work enhancing the interface
                 and functionality across the site, and we can't wait to share these exciting developments with you.</p>
             <h3>Enhanced Interface for Seamless Navigation</h3>
-            <p>One of the most noticeable changes is the enhanced interface. We've streamlined navigation to ensure you can find what you need quickly and effortlessly. Whether you're exploring our projects or learning more about our team, the new layout
+            <p>One of the most noticeable changes is the enhanced interface. We've streamlined navigation to ensure you
+                can find what you need quickly and effortlessly. Whether you're exploring our projects or learning more
+                about our team, the new layout
                 provides a more cohesive and user-friendly experience.</p>
             <h3>Introducing New Pages</h3>
-            <p><b>Contact Page:</b> We've added a dedicated Contact Page to facilitate easier communication. Whether you have a question, a project idea, or just want to connect, reaching out to us is now simpler than ever. You can either send us an email
+            <p><b>Contact Page:</b> We've added a dedicated Contact Page to facilitate easier communication. Whether you
+                have a question, a project idea, or just want to connect, reaching out to us is now simpler than ever.
+                You can either send us an email
                 directly or use the contact form on our site.
             </p>
-            <p><b>About Page:</b> Curious about who we are and what drives us? Our newly revamped About Page offers insights into our mission, values, and the journey that led us to create <span style="color:#70d249">Project Portico</span>. Discover the
+            <p><b>About Page:</b> Curious about who we are and what drives us? Our newly revamped About Page offers
+                insights into our mission, values, and the journey that led us to create <span
+                    style="color:#70d249">Project Portico</span>. Discover the
                 faces behind the projects and learn more about our passion for web development and technology.<br>
             </p>
-            <p><b>Blog Page (Coming Soon):</b> Stay tuned for our upcoming Blog Page, where we'll share valuable insights, project updates, and industry news. While it's temporarily unavailable due to technical improvements, we're working diligently to bring
+            <p><b>Blog Page (Coming Soon):</b> Stay tuned for our upcoming Blog Page, where we'll share valuable
+                insights, project updates, and industry news. While it's temporarily unavailable due to technical
+                improvements, we're working diligently to bring
                 it online soon. We can't wait to start engaging with you through informative and inspiring blog posts.
             </p>
             <h3>Unified Theme Across Projects</h3>
-            <p>To ensure consistency and a unified experience, we've updated the theme across all projects featured on <span style="color:#70d249">Project Portico</span>. Each project now incorporates a cohesive header, navigation bar, and footer, making
-                it easier for you to navigate between different sections while enjoying a seamless aesthetic.</p>
+            <p>To ensure consistency and a unified experience, we've updated the theme across all projects featured on
+                <span style="color:#70d249">Project Portico</span>. Each project now incorporates a cohesive header,
+                navigation bar, and footer, making
+                it easier for you to navigate between different sections while enjoying a seamless aesthetic.
+            </p>
             <h3>New Projects: Expense Tracker and Currency Converter</h3>
-            <p>As part of our commitment to providing practical solutions, we're excited to introduce two new projects: Expense Tracker and Currency Converter. These tools are designed to simplify your financial management and currency conversion needs,
+            <p>As part of our commitment to providing practical solutions, we're excited to introduce two new projects:
+                Expense Tracker and Currency Converter. These tools are designed to simplify your financial management
+                and currency conversion needs,
                 offering intuitive interfaces and reliable functionality.</p>
             <h3>Explore and Engage</h3>
-            <p>We invite you to explore the new features and enhancements on <span style="color:#70d249">Project Portico</span>. Whether you're a developer looking for inspiration or a visitor curious about our projects, there's something here for everyone.
+            <p>We invite you to explore the new features and enhancements on <span style="color:#70d249">Project
+                    Portico</span>. Whether you're a developer looking for inspiration or a visitor curious about our
+                projects, there's something here for everyone.
                 Join us on this journey of innovation and creativity in web development.</p>
-            <p>Thank you for being a part of <span style="color:#70d249">Project Portico</span>. We look forward to continuing to serve you with excellence and innovation.</p>
+            <p>Thank you for being a part of <span style="color:#70d249">Project Portico</span>. We look forward to
+                continuing to serve you with excellence and innovation.</p>
         </article>
     </section>
     <br><br><br>
@@ -247,7 +310,7 @@
         function openLink(link) {
             window.open(link, '_blank');
         }
-        window.onscroll = function() {
+        window.onscroll = function () {
             stick()
         };
 

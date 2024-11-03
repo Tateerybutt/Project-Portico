@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recipe Finder  - Project Portico</title>
-    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5ba3ca3a53.js" crossorigin="anonymous"></script>
+    <title>Notes App - Project Portico</title> 
+    <link rel="stylesheet" href="styles.css">
     <link rel="shortcut icon" href="../logo.png" type="image/x-icon">
 </head>
-
 <body>
     <header id="header">
         <img src="../logo.png" alt="Project Portico logo">
@@ -20,20 +19,19 @@
         <a href="../contact.html">Contact</a>
         <a href="../about.html">About</a>
     </nav>
-    <br><br><br>
-    <div class="container">
-        <h1>Recipe Finder</h1>
-        <input type="text" id="searchInput" placeholder="Enter ingredients">
-        <button onclick="searchRecipes()">Search</button>
-        <div id="recipeList"></div>
-        <div id="errmsg"></div>
+
+    <div id="app">
+        <h1>Notes App</h1>
+        <textarea id="note-text" placeholder="Write your note here..." cols="70" rows="7"></textarea>
+        <button onclick="addNote()">Add Note</button>
+        <ul id="notes-list">
+            <!-- Notes will appear here -->
+        </ul>
     </div>
-    <br><br><br>
 
     <footer>
         <p>&copy; 2024 Project Portico. All rights reserved.</p>
     </footer>
     <script src="script.js"></script>
 </body>
-
 </html>

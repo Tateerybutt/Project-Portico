@@ -94,6 +94,35 @@
             bottom: 0;
         }
         
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        
+        input, textarea {
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+        
+        button {
+            padding: 10px;
+            background-color: #fff;
+            color: #70d249;
+            border: none;
+            font-weight: bold;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        
+        button:hover {
+            background-color: #fff;
+            color: #000;
+        }
+        
         @media screen and (max-width:600px) {
             header h1 {
                 font-size: 35px;
@@ -101,9 +130,12 @@
             header img {
                 display: none;
             }
+            #contact {
+                width: 90%;
+            }
         }
     </style>
-    <title>Project Portico</title>
+    <title>Project Portico - Project Portico</title>
     <link rel="shortcut icon" href="logo.png" type="image/x-icon">
 </head>
 
@@ -121,15 +153,25 @@
     <section id="contact">
         <h1>Contact Us</h1>
         <p>Feel free to reach out!</p>
+
+        <!-- Contact Information -->
         <h3 class="title">Email</h3>
-        <a target="_blank" href=" mailto:abdullahscientist.no1@gmail.com">abdullahscientist.no1@gmail.com</a>
+        <a target="_blank" href="mailto:abdullahscientist.no1@gmail.com">abdullahscientist.no1@gmail.com</a>
         <h3 class="title ">LinkedIn</h3>
         <a target="_blank" href="https://www.linkedin.com/in/abdullah-imran-1095662a6/">LinkedIn</a>
         <h3 class="title">GitHub</h3>
         <a target="_blank" href="https://github.com/Tateerybutt ">Github</a>
         <h3 class="title ">Facebook</h3>
         <a target="_blank" href="https://www.facebook.com/profile.php?id=61553774336707">Facebook</a>
-        <pre style="text-align: center;display: none;"><u>Want to visit our portfolio?</u> <a style="font-weight: bold; text-decoration: none;cursor: pointer;" href="#">Click Here</a></pre>
+
+        
+        <form action="https://formspree.io/f/mkgnjpqo" method="POST">
+            <h3>Contact Form</h3>
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
     </section>
     <br><br><br>
 
