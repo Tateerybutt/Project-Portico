@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Science from Qur'an - Project Portico</title>
+    <script src="https://kit.fontawesome.com/5ba3ca3a53.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="../logo.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header id="header">
+        <img src="../logo.png" alt="Project Portico logo">
+        <h1>Project Portico</h1>
+    </header> 
+    <nav id="navbar">
+        <a href="../index.html">Home</a>
+        <a href="../projects.html">Projects</a>
+        <a href="../contact.html">Contact</a>
+        <a href="../about.html">About</a>
+        <a href="../blog.html">Blog</a>
+    </nav>
+
+    <div class="container">
+        <h1>Science from Qur'an</h1>
+        <p>Explore the wonders of science as mentioned in the Qur'an.</p>
+        <p>Click on a category to view related facts.</p>
+        <div class="category-list">
+            <button class="category-btn" onclick="displayCategory('Biology')">Biology</button>
+            <button class="category-btn" onclick="displayCategory('Astronomy')">Astronomy</button>
+            <button class="category-btn" onclick="displayCategory('geology')">Geology</button>
+            <button class="category-btn" onclick="displayCategory('oceanography')">Oceanography</button>
+            <button class="category-btn" onclick="displayCategory('meteorology')">Meteorology</button>
+            <button class="category-btn" onclick="displayCategory('physics')">Physics</button>
+            <button class="category-btn" onclick="displayCategory('chemistry')">Chemistry</button>
+        </div>
+
+        <section id="science-facts" class="facts-section">
+            <!-- Facts will be loaded here dynamically -->
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Project Portico. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

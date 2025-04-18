@@ -13,41 +13,41 @@
             margin: 0;
             padding: 0;
         }
-        
+
         h1 {
             font-size: 48px;
         }
-        
+
         header img {
             margin-top: 5px;
             max-width: 100px;
             max-height: 100px;
         }
-        
+
         header {
             background-color: #fff;
             color: #000;
             padding: 20px;
             text-align: center;
         }
-        
+
         nav {
             background-color: #70d249;
             padding: 10px;
             text-align: center;
             overflow: hidden;
         }
-        
+
         .sticky {
             position: fixed;
             top: 0;
             width: 100%;
         }
-        
+
         .sticky+.content {
             padding-top: 60px;
         }
-        
+
         nav a {
             font-weight: bold;
             color: #fff;
@@ -57,16 +57,16 @@
             border-right: #70d249 solid 2px;
             margin: 3px 5px;
         }
-        
+
         .active {
             text-decoration: underline 3px;
         }
-        
+
         nav a:hover {
             border-left: #fff solid 2px;
             border-right: #fff solid 2px;
         }
-        
+
         #latest-projects {
             display: flex;
             flex-wrap: wrap;
@@ -74,7 +74,7 @@
             margin-top: 50px;
             padding: 2em;
         }
-        
+
         .project {
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
             background-color: #70d249;
@@ -87,11 +87,11 @@
             cursor: pointer;
             transition: box-shadow 0.3s ease-in-out;
         }
-        
+
         .project:hover {
             box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.9);
         }
-        
+
         .project img {
             border: 3px #70d249 solid;
             width: 100%;
@@ -99,7 +99,7 @@
             border-radius: 12px;
             margin-bottom: 1em;
         }
-        
+
         footer {
             background-color: #70d249;
             color: #fff;
@@ -107,17 +107,18 @@
             padding: 1em;
             bottom: 0;
         }
-        
+
         @media screen and (max-width:600px) {
             header h1 {
                 font-size: 35px;
             }
+
             header img {
                 display: none;
             }
         }
     </style>
-    <title>Project Portico  - Project Portico</title>
+    <title>Project Portico</title>
     <link rel="shortcut icon" href="logo.png" type="image/x-icon">
 </head>
 
@@ -131,8 +132,15 @@
         <a class="active" href="projects.html">Projects</a>
         <a href="contact.html">Contact</a>
         <a href="about.html">About</a>
+        <a href="blog.html">Blog</a>
     </nav>
     <section id="latest-projects">
+        <article class="project" onclick="openLink('Science from Quran/index.html')">
+            <img src="images/Quran-Image.png" alt="Science from Quran Image">
+            <h2>Science from Qur'an</h2>
+            <p>Explore the wonders of science as mentioned in the Qur'an.</p>
+        </article>
+
         <article class="project" onclick="openLink('NoteNest/index.html')">
             <img src="images/NoteNest Image.jpg" alt="NoteNest Image">
             <h2>NoteNest</h2>
@@ -148,7 +156,8 @@
         <article class="project" onclick="openLink('Currency Converter/index.html')">
             <img src="images/Currency Converter Image.jpg" alt="Currency Converter Image">
             <h2>Currency Converter</h2>
-            <p>Instantly Convert and Compare: Real-time currency exchange made simple for savvy travelers and global businesses</p>
+            <p>Instantly Convert and Compare: Real-time currency exchange made simple for savvy travelers and global
+                businesses</p>
         </article>
 
         <article class="project" onclick="openLink('Compound Information/index.html')">
@@ -251,7 +260,7 @@
         function openLink(link) {
             window.open(link, '_blank');
         }
-        window.onscroll = function() {
+        window.onscroll = function () {
             stick()
         };
 

@@ -123,12 +123,12 @@ nav a:hover {
 }
 
 .planet-box {
-    border: 1px solid #ccc;
+    border: 3px solid #70d249;
     margin: 10px;
     padding: 10px;
     display: inline-block;
     cursor: pointer;
-    background-color: #70d249;
+    background-color: #fff;
 }
 
 .planet-image {
