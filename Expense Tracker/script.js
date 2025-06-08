@@ -2,18 +2,19 @@ let expenses = [];
 let categories = ['Food', 'Transport', 'Entertainment', 'Utilities'];
 const err = document.getElementById('errmsg');
 
-// Function to add expense
 function addExpense() {
     const description = document.getElementById('description').value;
     const amount = parseFloat(document.getElementById('amount').value);
     const category = document.getElementById('category').value;
 
-    if (description && amount && category) {
+    if (description && !isNaN(amount) && category) {
         const expense = { description, amount, category };
         expenses.push(expense);
         displayExpenses();
         updateSummary();
-        // Clear input fields
+        err.innerHTML = ''; // Clear error msg
+
+        // Clear inputs
         document.getElementById('description').value = '';
         document.getElementById('amount').value = '';
         document.getElementById('category').value = 'Food';
@@ -21,6 +22,7 @@ function addExpense() {
         err.innerHTML = 'Please fill in all fields!';
     }
 }
+
 
 // Function to display expenses
 function displayExpenses() {
@@ -74,3 +76,4 @@ function openModal() {
 function closeModal() {
     document.getElementById('myModal').style.display = 'none';
 }
+updateCategoryDropdown();

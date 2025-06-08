@@ -2,7 +2,7 @@ let display = document.getElementById('display');
 let history = document.getElementById('history');
 let lastClicked = null; // Variable to track the last clicked button
 
-function appendToDisplay(value) {
+function append(value) {
     // If the last clicked button was '=' and the current button is a number, clear the display
     if (lastClicked === '=' || lastClicked === '√' || lastClicked === '^2') {
         clearDisplay();

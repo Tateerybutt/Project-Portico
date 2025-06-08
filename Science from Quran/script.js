@@ -430,7 +430,7 @@ function displayCategory(category) {
     if (categoryFacts && categoryFacts.length > 0) {
         categoryFacts.forEach(fact => {
             const factCard = document.createElement('div');
-            factCard.classList.add('fact-card');
+            factCard.classList.add('card');
             factCard.innerHTML = `
                 <h3>${fact.title}</h3>
                 <p>${fact.explanation}</p>

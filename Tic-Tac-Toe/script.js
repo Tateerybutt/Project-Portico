@@ -11,7 +11,7 @@
         function initializeBoard() {
             for (let i = 0; i < 3; i++) {
                 for (let j = 0; j < 3; j++) {
-                    const cell = document.createElement('div');
+                    const cell = document.createElement('button');
                     cell.classList.add('cell');
                     cell.dataset.row = i;
                     cell.dataset.col = j;
@@ -33,7 +33,7 @@
                 cell.textContent = currentPlayer;
                 if (checkWinner(row, col)) {
                     result.style.display = 'block';
-                    result.textContent = `Player ${currentPlayer} wins!`;
+                    result.innerHTML = `Player <span style="font-weight: bolder; color: var(--color-accent);">${currentPlayer}</span> wins!`;
                     gameOver = true;
                     showRestartButton();
                 } else if (isBoardFull()) {

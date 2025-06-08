@@ -4,16 +4,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Photo Gallery  - Project Portico</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Simple Photo Gallery - Project Portico</title>
+    <link rel="stylesheet" href="../style.css">
     <link rel="shortcut icon" href="../logo.png">
+    <STYle>
+        #gallery img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+            cursor: pointer;
+            background-color: #fff;
+        }
+
+        #gallery img:hover {
+            transform: scale(1.05);
+        }
+    </STYle>
 </head>
 
 <body>
     <header id="header">
         <img src="../logo.png" alt="Project Portico logo">
         <h1>Project Portico</h1>
-    </header> 
+    </header>
     <nav id="navbar">
         <a href="../index.html">Home</a>
         <a href="../projects.html">Projects</a>
@@ -22,9 +39,9 @@
         <a href="../blog.html">Blog</a>
     </nav>
     <br><br><br>
-    <div class="gallery-container">
-        <div class="gallery"></div>
-    </div>
+        <div class="container" id="gallery">
+            <h1>Gallery</h1>
+        </div>
     <br><br><br>
 
     <footer>

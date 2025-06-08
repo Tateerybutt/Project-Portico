@@ -4,9 +4,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../style.css">
     <link rel="shortcut icon" href="../logo.png" type="image/x-icon">
     <title>One-Page Todo List  - Project Portico</title>
+    <style>
+        
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin: 10px;
+    color: var(--color-text);
+    border: 1px solid var(--color-border);
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+
+li:hover {
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+  transform: translateY(-4px);
+}
+    </style>
 </head>
 
 <body>
@@ -22,13 +48,13 @@
         <a href="../blog.html">Blog</a>
     </nav>
     <br><br><br>
-    <div id="app">
+    <div class="container">
         <h1>Todo List</h1>
         <input onkeydown="checkEnter(event)" type="text" id="taskInput" placeholder="Add a new task...">
         <button onclick="addTask()">Add Task</button>
         <ul id="taskList"></ul>
     </div>
-    <br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br>
 
     <footer>
         <p>&copy; 2024 Project Portico. All rights reserved.</p>

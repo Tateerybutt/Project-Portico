@@ -2,342 +2,131 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body {
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: cover;
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-
-        h1 {
-            font-size: 48px;
-        }
-
-        header img {
-            margin-top: 5px;
-            max-width: 100px;
-            max-height: 100px;
-        }
-
-        header {
-            background-color: #fff;
-            color: #000;
-            padding: 20px;
-            text-align: center;
-        }
-
-        nav {
-            background-color: #70d249;
-            padding: 10px;
-            text-align: center;
-            overflow: hidden;
-        }
-
-        .sticky {
-            position: fixed;
-            top: 0;
-            width: 100%;
-        }
-
-        .sticky+.content {
-            padding-top: 60px;
-        }
-
-        nav a {
-            font-weight: bold;
-            color: #fff;
-            text-decoration: none;
-            padding: 10px 20px;
-            border-left: #70d249 solid 2px;
-            border-right: #70d249 solid 2px;
-            margin: 3px 5px;
-        }
-
-        .active {
-            text-decoration: underline 3px;
-        }
-
-        nav a:hover {
-            border-left: #fff solid 2px;
-            border-right: #fff solid 2px;
-        }
-
-        .header {
-            background-color: #70d249;
-            border-radius: 12px 12px 0 0;
-            color: #fff;
-            display: flex;
-            max-width: 97%;
-            justify-content: space-between;
-            margin: auto;
-            padding: 12px;
-
-            a:hover {
-                text-decoration: underline;
-            }
-
-            a {
-                text-decoration: none;
-                color: #fff;
-            }
-        }
-
-        .active {
-            text-decoration: underline 3px;
-        }
-
-        a {
-            font-weight: bold;
-            text-decoration: none;
-            color: #70d249;
-        }
-
-        #latest-projects {
-            margin: 25px;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            padding: 2em;
-        }
-
-        .project {
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
-            background-color: #70d249;
-            color: #fff;
-            border: none;
-            border-radius: 5px;
-            padding: 1em;
-            margin: 1em;
-            width: 300px;
-            cursor: pointer;
-            transition: box-shadow 0.3s ease-in-out;
-        }
-
-        .project:hover {
-            box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.9);
-        }
-
-        .project img {
-            border: 3px #70d249 solid;
-            width: 100%;
-            height: auto;
-            border-radius: 12px;
-            margin-bottom: 1em;
-        }
-
-        .posts {
-            margin: 0;
-            padding: 2em;
-        }
-
-        .post {
-            border: #70d249 solid 3px;
-            width: 90%;
-            text-align: center;
-            border-radius: 9px;
-            margin: 30px auto;
-            padding-top: 0;
-        }
-
-        .title {
-            margin-top: 0;
-            border-radius: 5px 5px 0 0;
-            padding: 14px 16px;
-            color: #fff;
-            background-color: #70d249;
-        }
-
-        footer {
-            background-color: #70d249;
-            color: #fff;
-            text-align: center;
-            padding: 1em;
-            bottom: 0;
-        }
-
-        @media screen and (max-width:600px) {
-            header h1 {
-                font-size: 35px;
-            }
-
-            header img {
-                display: none;
-            }
-        }
-    </style>
-    <title>Project Portico</title>
-    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Project Portico</title>
+  <link rel="shortcut icon" href="logo.png" type="image/x-icon" />
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header id="header">
-        <img src="logo.png" alt="">
-        <h1>Project Portico</h1>
-    </header>
-    <nav id="navbar">
-        <a class="active" href="index.html">Home</a>
-        <a href="projects.html">Projects</a>
-        <a href="contact.html">Contact</a>
-        <a href="about.html">About</a>
-        <a href="blog.html">Blog</a>
-    </nav>
-    <br><br><br>
-    <div class="header">
-        <h2 style="margin: 0;">Latest Projects</h2>
-        <a href="projects.html">View all Projects</a>
-    </div>
-    <section id="latest-projects">
-        <article class="project" onclick="openLink('Science from Quran/index.html')">
-            <img src="images/Quran-Image.png" alt="Science from Quran Image">
-            <h2>Science from Qur'an</h2>
-            <p>Explore the wonders of science as mentioned in the Qur'an.</p>
-        </article>
+  <header>
+    <img src="logo.png" alt="Project Portico Logo" title="Project Portico" />
+    <h1>Project Portico</h1>
+  </header>
 
-        <article class="project" onclick="openLink('NoteNest/index.html')">
-            <img src="images/NoteNest Image.jpg" alt="NoteNest Image">
-            <h2>NoteNest</h2>
-            <p>Capture Every Thought, Anytime, Anywhere.</p>
-        </article>
 
-        <article class="project" onclick="openLink('Expense Tracker/index.html')">
-            <img src="images/Expense Tracker Image.jpg" alt="Expense Tracker Image">
-            <h2>Expense Tracker</h2>
-            <p>Track Track: Stay Tracked with sleek Expense Tracker!</p>
-        </article>
-    </section>
-    <div class="header">
-        <h2 style="margin: 0;">Latest Posts</h2>
-        <a href="blog.html" style="display: none;">Visit Blog Page</a>
-    </div>
-    <section class="posts">
-        <article class="post">
-            <h4 class="title">Introducing "Science from the Qur’an" + Our Brand New Blog Page!</h4>
+  <nav id="navbar">
+    <a class="active" href="index.html">Home</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact</a>
+    <a href="about.html">About</a>
+    <a href="blog.html">Blog</a>
+  </nav>
 
-            <h3>As-salamu Alaikum and Welcome!</h3>
-            <p>We’re thrilled to launch the <span style="color:#70d249">Science from the Qur’an</span> section — a
-                powerful new
-                addition to <span style="color:#70d249">Project Portico</span>! But that’s not all… we’ve also
-                officially added a
-                <b>dedicated Blog Page</b> to make exploring these gems even smoother and more engaging. 📖✨
-            </p>
+  <section class="section-header">
+    <h2>Latest Projects</h2>
+    <a href="Projects.html">View All Projects</a>
+  </section>
 
-            <h3>What’s "Science from the Qur’an" All About?</h3>
-            <p>In this section, we dive into some mind-blowing facts from modern science — and how they were already
-                mentioned
-                in the <span style="color:#70d249">Holy Qur’an</span> centuries ago. From astronomy and geology to
-                biology and oceanography,
-                this is all about reflecting on the divine wisdom that was always there, just waiting to be understood.
-            </p>
+  <section class="card-container">
+    <article class="card" onclick="openLink('Portfolio Website/index.html')">
+      <img src="images/Portfolio Website Image.jpg" alt="Portfolio Website Image">
+      <h2>Portfolio Website</h2>
+      <p>Portfolio Website: Express yourself in a better way.</p>
+    </article>
 
-            <h3>What to Expect in Each Post?</h3>
-            <p><b>📘 Qur’anic Verse:</b> Every post highlights a clear verse with Arabic + English translation + proper
-                reference.</p>
-            <p><b>🔬 Modern Science:</b> We explain the scientific concept in simple words — so it clicks instantly!</p>
-            <p><b>💭 Reflection:</b> A short discussion on how this verse inspires awe, curiosity, and deeper faith.</p>
+    <article class="card" onclick="openLink('Science from Quran/index.html')">
+      <img src="images/Quran-Image.png" alt="Science from Quran Image">
+      <h2>Science from Qur'an</h2>
+      <p>Explore the wonders of science as mentioned in the Qur'an.</p>
+    </article>
 
-            <h3>Why This Matters?</h3>
-            <p>Because the Qur’an isn’t just a guide for the soul — it’s also a source of knowledge and observation.
-                Allah ﷻ invites us again and again to "ponder", "reflect", and "observe". This section brings those
-                verses to life.</p>
+    <article class="card" onclick="openLink('NoteNest/index.html')">
+      <img src="images/NoteNest Image.jpg" alt="NoteNest Image">
+      <h2>NoteNest</h2>
+      <p>Capture Every Thought, Anytime, Anywhere.</p>
+    </article>
+  </section>
 
-            <h3>Blog Page is LIVE!</h3>
-            <p>With the launch of our new <b>Blog Page</b>, you can now explore all sections of Project Portico —
-                including
-                tools, thoughts, and spiritual gems — in one clean, scrollable experience. 🖥️📝
-                It’s all styled with care, keeping simplicity and readability front and center.</p>
+  <section class="section-header">
+    <h2>Latest Posts</h2>
+    <a href="blog.html">View All Posts</a>
+  </section>
 
-            <h3>Let’s Explore the Signs Together 🌌</h3>
-            <p>If you’ve ever read a verse and thought, “Wait... science says that too?” — this is the spot for you.
-                Whether you’re a curious student, a believer in awe, or someone exploring the intersection of deen and
-                dunya,
-                this section is made with love — and with you in mind.</p>
+  <section class="posts">
+    <article class="post">
+      <h4 class="title">Project Portico Update: New Theme + Portfolio Website Project!</h4>
 
-            <h3>Check It Out Now!</h3>
-            <p>Tap into the Qur’an’s depth, beauty, and knowledge. Visit the new blog and explore the posts in the
-                <span style="color:#70d249">Science from the Qur’an</span> series. More updates and posts are coming
-                soon, inshaAllah!
-            </p>
+      <h3>Hey there, fellow devs! 👋</h3>
+      <p>We’re pumped to roll out a fresh new look for <span style="color: var(--color-primary);">Project
+          Portico</span>, powered by a clean,
+        modern theme that makes your projects shine brighter than your code on deadline night! Plus — drumroll, please —
+        we just dropped
+        a <b>brand new Portfolio Website project</b> that’s perfect for showing off your skills and projects in style.
+        💼✨
+      </p>
 
-            <h3>JazakAllah Khair for Being Here</h3>
-            <p><span style="color:#70d249">Project Portico</span> is just getting started, and your support means the
-                world. Stay curious, stay inspired —
-                and don’t forget to reflect on the ayahs that speak louder than textbooks 📚❤️</p>
-        </article>
-        <hr>
+      <h3>What’s the New Theme?</h3>
+      <p>The whole site now rocks these chill vibes:</p>
+      <pre style="background: var(--color-bg); padding: 1rem; border-radius: 8px; overflow-x: auto;">
+<code>:root {
+  --color-bg: #f9f9f9;
+  --color-primary: #34495e;
+  --color-secondary: #2c3e50;
+  --color-accent: #2980b9;
+  --color-text: #2d3436;
+  --color-light-text: #7f8c8d;
+  --color-border: #dfe6e9;
+  --color-white: #ffffff;
+}
+</code>
+    </pre>
+      <p>Simple, sleek, and easy on the eyes — just how a portfolio should be!</p>
 
-        <article class="post">
-            <h4 class="title">Introducing NoteNest: Your Ultimate Note-Taking Solution!</h4>
-            <h3>Hello and Welcome to NoteNest!</h3>
-            <p>We’re excited to unveil <span style="color:#70d249">NoteNest</span>, the newest addition to Project
-                Portico! Designed with simplicity and efficiency in mind, NoteNest is here to help you stay organized
-                effortlessly. Whether it’s capturing quick ideas or managing daily tasks, NoteNest makes organization a
-                breeze.</p>
+      <h3>Meet the Portfolio Project 🚀</h3>
+      <p>This project is your personal brand’s new BFF — a minimalist portfolio website that highlights your best work,
+        your story,
+        and your contact info. Whether you’re pitching clients or just showing off your progress, this site keeps it
+        professional
+        and approachable.</p>
 
-            <h3>Why NoteNest?</h3>
-            <p>Our focus with <span style="color:#70d249">NoteNest</span> is to create a streamlined experience for
-                users who need an easy, accessible way to store their thoughts, ideas, and tasks. From a clean,
-                minimalist interface to intuitive task management features, NoteNest is built to help you stay
-                productive and focused.</p>
+      <h3>Why It’s a Big Deal</h3>
+      <p>Because having a clean, easy-to-navigate portfolio is clutch when you want to get noticed. Plus, it’s built
+        using our
+        new theme colors to keep everything consistent across Project Portico. Customize it, add more projects, and flex
+        your
+        unique style!</p>
 
-            <h3>Key Features You’ll Love</h3>
-            <p><b>User-Friendly Design:</b> NoteNest offers a clutter-free interface, designed to help you focus solely
-                on your notes. The color scheme is chosen to be easy on the eyes, keeping your experience smooth and
-                enjoyable.</p>
-            <p><b>Accessible Across Devices:</b> Developed to work seamlessly on desktop platforms, NoteNest makes it
-                easy to capture ideas whenever inspiration strikes.</p>
-            <p><b>Instant Task Management:</b> Easily add, view, and delete notes with just a few clicks. Each task can
-                be managed directly within the main screen, saving you time and hassle.</p>
+      <h3>What’s Next?</h3>
+      <p>More mini projects coming your way — maybe a quiz app, a fitness tracker, or a random quote generator. Use this
+        portfolio
+        project as your hub to bring them all together.</p>
 
-            <h3>How NoteNest Works</h3>
-            <p>Getting started with <span style="color:#70d249">NoteNest</span> is simple! Just type a note, hit <b>Add
-                    Note</b>, and see it appear instantly. With the integrated delete function, organizing and
-                decluttering your notes is quick and easy. Plus, all your notes are saved locally, so you can pick up
-                right where you left off.</p>
+      <h3>Get Started Now!</h3>
+      <p>Ready to take your portfolio to the next level? Dive into the new project, tweak it, and show the world what
+        you’re made of.
+        Because you’re not just coding — you’re building your future. 💪🔥</p>
 
-            <h3>Try NoteNest Today!</h3>
-            <p>Ready to stay organized? Give <span style="color:#70d249">NoteNest</span> a try. Whether you're looking
-                to organize personal tasks or
-                plan your next project, NoteNest has got you covered.</p>
+      <h3>Keep the Momentum Going</h3>
+      <p><span style="color: var(--color-primary);">Project Portico</span> is growing every day, and your support and
+        feedback keep it
+        moving forward. Got ideas or want code for a new mini project? Hit me up — we’re in this journey together!</p>
 
-            <h3>Looking Ahead</h3>
-            <p>We're committed to making <span style="color:#70d249">Project Portico</span> a hub for simple, effective
-                tools that enhance productivity. With NoteNest, we hope to add a valuable resource for students,
-                professionals, and creatives alike. Stay tuned for more updates, and thank you for being a part of our
-                journey!</p>
-        </article>
-    </section>
-    <br><br><br>
+    </article>
 
-    <footer>
-        <p>&copy; 2024 Project Portico. All rights reserved.</p>
-    </footer>
+  </section>
 
-    <script>
-        function openLink(link) {
-            window.open(link, '_blank');
-        }
-        window.onscroll = function () {
-            stick()
-        };
+  <footer>
+    © 2025 Project Portico. All rights reserved.
+  </footer>
 
-        var navbar = document.getElementById("navbar");
-        var header = document.getElementById("header");
-        var sticky = navbar.offsetTop;
-
-        function stick() {
-            if (window.pageYOffset >= sticky) {
-                navbar.classList.add("sticky")
-            } else {
-                navbar.classList.remove("sticky");
-            }
-        }
-    </script>
-
+  <script>
+    // Helper function to open links safely in new tabs
+    function openProject(url) {
+      window.open(url, '_blank', 'noopener,noreferrer');
+    }
+  </script>
 </body>
 
 </html>

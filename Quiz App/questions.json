@@ -1,0 +1,1042 @@
+[
+    {
+        "question": "What is the capital of France?",
+        "options": [
+            "Paris",
+            "London",
+            "Berlin",
+            "Rome"
+        ],
+        "answer": "Paris"
+    },
+    {
+        "question": "Who wrote 'Hamlet'?",
+        "options": [
+            "Shakespeare",
+            "Homer",
+            "Chaucer",
+            "Dickens"
+        ],
+        "answer": "Shakespeare"
+    },
+    {
+        "question": "What color is the sky on a clear day?",
+        "options": [
+            "Blue",
+            "Green",
+            "Red",
+            "Yellow"
+        ],
+        "answer": "Blue"
+    },
+    {
+        "question": "Which animal barks?",
+        "options": [
+            "Dog",
+            "Cat",
+            "Cow",
+            "Bird"
+        ],
+        "answer": "Dog"
+    },
+    {
+        "question": "How many legs does a spider have?",
+        "options": [
+            "8",
+            "6",
+            "4",
+            "10"
+        ],
+        "answer": "8"
+    },
+    {
+        "question": "What do bees make?",
+        "options": [
+            "Honey",
+            "Milk",
+            "Cheese",
+            "Butter"
+        ],
+        "answer": "Honey"
+    },
+    {
+        "question": "Which planet is closest to the sun?",
+        "options": [
+            "Mercury",
+            "Venus",
+            "Earth",
+            "Mars"
+        ],
+        "answer": "Mercury"
+    },
+    {
+        "question": "What is H2O commonly known as?",
+        "options": [
+            "Water",
+            "Oxygen",
+            "Salt",
+            "Hydrogen"
+        ],
+        "answer": "Water"
+    },
+    {
+        "question": "What shape is a stop sign?",
+        "options": [
+            "Octagon",
+            "Circle",
+            "Square",
+            "Triangle"
+        ],
+        "answer": "Octagon"
+    },
+    {
+        "question": "Which fruit is yellow and curved?",
+        "options": [
+            "Banana",
+            "Apple",
+            "Orange",
+            "Grapes"
+        ],
+        "answer": "Banana"
+    },
+    {
+        "question": "What is the largest mammal?",
+        "options": [
+            "Blue Whale",
+            "Elephant",
+            "Giraffe",
+            "Hippopotamus"
+        ],
+        "answer": "Blue Whale"
+    },
+    {
+        "question": "What is the boiling point of water?",
+        "options": [
+            "100°C",
+            "0°C",
+            "50°C",
+            "200°C"
+        ],
+        "answer": "100°C"
+    },
+    {
+        "question": "Which country is known as the Land of the Rising Sun?",
+        "options": [
+            "Japan",
+            "China",
+            "India",
+            "South Korea"
+        ],
+        "answer": "Japan"
+    },
+    {
+        "question": "What is the main ingredient in guacamole?",
+        "options": [
+            "Avocado",
+            "Tomato",
+            "Onion",
+            "Pepper"
+        ],
+        "answer": "Avocado"
+    },
+    {
+        "question": "How many planets are in our solar system?",
+        "options": [
+            "8",
+            "9",
+            "7",
+            "6"
+        ],
+        "answer": "8"
+    },
+    {
+        "question": "What is the hardest natural substance on Earth?",
+        "options": [
+            "Diamond",
+            "Gold",
+            "Iron",
+            "Quartz"
+        ],
+        "answer": "Diamond"
+    },
+    {
+        "question": "Which element has the chemical symbol 'O'?",
+        "options": [
+            "Oxygen",
+            "Gold",
+            "Silver",
+            "Hydrogen"
+        ],
+        "answer": "Oxygen"
+    },
+    {
+        "question": "What is the largest planet in our solar system?",
+        "options": [
+            "Jupiter",
+            "Saturn",
+            "Earth",
+            "Mars"
+        ],
+        "answer": "Jupiter"
+    },
+    {
+        "question": "Who painted the Mona Lisa?",
+        "options": [
+            "Leonardo da Vinci",
+            "Vincent van Gogh",
+            "Pablo Picasso",
+            "Claude Monet"
+        ],
+        "answer": "Leonardo da Vinci"
+    },
+    {
+        "question": "What is the main language spoken in Brazil?",
+        "options": [
+            "Portuguese",
+            "Spanish",
+            "English",
+            "French"
+        ],
+        "answer": "Portuguese"
+    },
+    {
+        "question": "What is the largest organ in the human body?",
+        "options": [
+            "Skin",
+            "Liver",
+            "Heart",
+            "Lungs"
+        ],
+        "answer": "Skin"
+    },
+    {
+        "question": "What is the capital of Japan?",
+        "options": [
+            "Tokyo",
+            "Seoul",
+            "Beijing",
+            "Bangkok"
+        ],
+        "answer": "Tokyo"
+    },
+    {
+        "question": "Which gas do we breathe in?",
+        "options": [
+            "Oxygen",
+            "Carbon Dioxide",
+            "Nitrogen",
+            "Hydrogen"
+        ],
+        "answer": "Oxygen"
+    },
+    {
+        "question": "What is the currency of the United States?",
+        "options": [
+            "Dollar",
+            "Euro",
+            "Pound",
+            "Yen"
+        ],
+        "answer": "Dollar"
+    },
+    {
+        "question": "What is the main ingredient in bread?",
+        "options": [
+            "Flour",
+            "Sugar",
+            "Salt",
+            "Yeast"
+        ],
+        "answer": "Flour"
+    },
+    {
+        "question": "What is the speed of light?",
+        "options": [
+            "299,792 km/s",
+            "150,000 km/s",
+            "300,000 km/s",
+            "1,000,000 km/s"
+        ],
+        "answer": "299,792 km/s"
+    },
+    {
+        "question": "What is the capital of Italy?",
+        "options": [
+            "Rome",
+            "Venice",
+            "Florence",
+            "Milan"
+        ],
+        "answer": "Rome"
+    },
+    {
+        "question": "Which planet is known for its rings?",
+        "options": [
+            "Saturn",
+            "Jupiter",
+            "Uranus",
+            "Neptune"
+        ],
+        "answer": "Saturn"
+    },
+    {
+        "question": "What is the largest desert in the world?",
+        "options": [
+            "Sahara Desert",
+            "Arabian Desert",
+            "Gobi Desert",
+            "Kalahari Desert"
+        ],
+        "answer": "Sahara Desert"
+    },
+    {
+        "question": "What is the chemical symbol for gold?",
+        "options": [
+            "Au",
+            "Ag",
+            "Fe",
+            "Pb"
+        ],
+        "answer": "Au"
+    },
+    {
+        "question": "What is the main source of energy for the Earth?",
+        "options": [
+            "Sun",
+            "Moon",
+            "Stars",
+            "Wind"
+        ],
+        "answer": "Sun"
+    },
+    {
+        "question": "What is the largest land animal?",
+        "options": [
+            "Elephant",
+            "Giraffe",
+            "Rhino",
+            "Hippo"
+        ],
+        "answer": "Elephant"
+    },
+    {
+        "question": "What is the boiling point of water in Fahrenheit?",
+        "options": [
+            "212°F",
+            "100°F",
+            "32°F",
+            "180°F"
+        ],
+        "answer": "212°F"
+    },
+    {
+        "question": "Which planet is known as the Morning Star?",
+        "options": [
+            "Venus",
+            "Mars",
+            "Mercury",
+            "Jupiter"
+        ],
+        "answer": "Venus"
+    },
+    {
+        "question": "What is the largest country in the world by area?",
+        "options": [
+            "Russia",
+            "Canada",
+            "China",
+            "United States"
+        ],
+        "answer": "Russia"
+    },
+    {
+        "question": "What is the primary ingredient in sushi?",
+        "options": [
+            "Rice",
+            "Fish",
+            "Seaweed",
+            "Vegetables"
+        ],
+        "answer": "Rice"
+    },
+    {
+        "question": "What is the capital of Australia?",
+        "options": [
+            "Canberra",
+            "Sydney",
+            "Melbourne",
+            "Brisbane"
+        ],
+        "answer": "Canberra"
+    },
+    {
+        "question": "What is the largest planet in our solar system?",
+        "options": [
+            "Jupiter",
+            "Saturn",
+            "Earth",
+            "Mars"
+        ],
+        "answer": "Jupiter"
+    },
+    {
+        "question": "What is the chemical formula for table salt?",
+        "options": [
+            "NaCl",
+            "H2O",
+            "CO2",
+            "C6H12O6"
+        ],
+        "answer": "NaCl"
+    },
+    {
+        "question": "Which animal is known as the King of the Jungle?",
+        "options": [
+            "Lion",
+            "Tiger",
+            "Elephant",
+            "Giraffe"
+        ],
+        "answer": "Lion"
+    },
+    {
+        "question": "What is the hardest natural substance on Earth?",
+        "options": [
+            "Diamond",
+            "Gold",
+            "Iron",
+            "Quartz"
+        ],
+        "answer": "Diamond"
+    },
+    {
+        "question": "What is the main ingredient in chocolate?",
+        "options": [
+            "Cocoa",
+            "Sugar",
+            "Milk",
+            "Vanilla"
+        ],
+        "answer": "Cocoa"
+    },
+    {
+        "question": "What is the largest planet in our solar system?",
+        "options": [
+            "Jupiter",
+            "Saturn",
+            "Earth",
+            "Mars"
+        ],
+        "answer": "Jupiter"
+    },
+    {
+        "question": "What is the capital of Canada?",
+        "options": [
+            "Ottawa",
+            "Toronto",
+            "Vancouver",
+            "Montreal"
+        ],
+        "answer": "Ottawa"
+    },
+    {
+        "question": "What is the primary gas found in the Earth's atmosphere?",
+        "options": [
+            "Nitrogen",
+            "Oxygen",
+            "Carbon Dioxide",
+            "Hydrogen"
+        ],
+        "answer": "Nitrogen"
+    },
+    {
+        "question": "What is the largest organ in the human body?",
+        "options": [
+            "Skin",
+            "Liver",
+            "Heart",
+            "Lungs"
+        ],
+        "answer": "Skin"
+    },
+    {
+        "question": "What is the main ingredient in pizza dough?",
+        "options": [
+            "Flour",
+            "Sugar",
+            "Salt",
+            "Yeast"
+        ],
+        "answer": "Flour"
+    },
+    {
+        "question": "What is the capital of Germany?",
+        "options": [
+            "Berlin",
+            "Munich",
+            "Frankfurt",
+            "Hamburg"
+        ],
+        "answer": "Berlin"
+    },
+    {
+        "question": "What is the largest continent on Earth?",
+        "options": [
+            "Asia",
+            "Africa",
+            "North America",
+            "South America"
+        ],
+        "answer": "Asia"
+    },
+    {
+        "question": "What is the chemical symbol for water?",
+        "options": [
+            "H2O",
+            "CO2",
+            "O2",
+            "NaCl"
+        ],
+        "answer": "H2O"
+    },
+    {
+        "question": "What is the main ingredient in hummus?",
+        "options": [
+            "Chickpeas",
+            "Lentils",
+            "Beans",
+            "Peas"
+        ],
+        "answer": "Chickpeas"
+    },
+    {
+        "question": "What is the capital of Spain?",
+        "options": [
+            "Madrid",
+            "Barcelona",
+            "Seville",
+            "Valencia"
+        ],
+        "answer": "Madrid"
+    },
+    {
+        "question": "What is the largest animal on Earth?",
+        "options": [
+            "Blue Whale",
+            "Elephant",
+            "Giraffe",
+            "Hippopotamus"
+        ],
+        "answer": "Blue Whale"
+    },
+    {
+        "question": "What is the main ingredient in mayonnaise?",
+        "options": [
+            "Eggs",
+            "Oil",
+            "Vinegar",
+            "Mustard"
+        ],
+        "answer": "Eggs"
+    },
+    {
+        "question": "What is the capital of Egypt?",
+        "options": [
+            "Cairo",
+            "Alexandria",
+            "Giza",
+            "Luxor"
+        ],
+        "answer": "Cairo"
+    },
+    {
+        "question": "What is the primary source of energy for the Earth?",
+        "options": [
+            "Sun",
+            "Wind",
+            "Water",
+            "Geothermal"
+        ],
+        "answer": "Sun"
+    },
+    {
+        "question": "What is the largest island in the world?",
+        "options": [
+            "Greenland",
+            "New Guinea",
+            "Borneo",
+            "Madagascar"
+        ],
+        "answer": "Greenland"
+    },
+    {
+        "question": "What is the chemical symbol for silver?",
+        "options": [
+            "Ag",
+            "Au",
+            "Fe",
+            "Pb"
+        ],
+        "answer": "Ag"
+    },
+    {
+        "question": "What is the main ingredient in pesto sauce?",
+        "options": [
+            "Basil",
+            "Parsley",
+            "Cilantro",
+            "Mint"
+        ],
+        "answer": "Basil"
+    },
+    {
+        "question": "What is the capital of India?",
+        "options": [
+            "New Delhi",
+            "Mumbai",
+            "Kolkata",
+            "Chennai"
+        ],
+        "answer": "New Delhi"
+    },
+    {
+        "question": "What is the largest volcano in the world?",
+        "options": [
+            "Mauna Loa",
+            "Mount Everest",
+            "Kilimanjaro",
+            "Mount Fuji"
+        ],
+        "answer": "Mauna Loa"
+    },
+    {
+        "question": "What is the primary ingredient in tofu?",
+        "options": [
+            "Soybeans",
+            "Rice",
+            "Wheat",
+            "Corn"
+        ],
+        "answer": "Soybeans"
+    },
+    {
+        "question": "What is the capital of Russia?",
+        "options": [
+            "Moscow",
+            "St. Petersburg",
+            "Kazan",
+            "Novosibirsk"
+        ],
+        "answer": "Moscow"
+    },
+    {
+        "question": "What is the largest city in the world by population?",
+        "options": [
+            "Tokyo",
+            "Delhi",
+            "Shanghai",
+            "Sao Paulo"
+        ],
+        "answer": "Tokyo"
+    },
+    {
+        "question": "What is the main ingredient in falafel?",
+        "options": [
+            "Chickpeas",
+            "Lentils",
+            "Beans",
+            "Peas"
+        ],
+        "answer": "Chickpeas"
+    },
+    {
+        "question": "What is the capital of South Africa?",
+        "options": [
+            "Pretoria",
+            "Cape Town",
+            "Johannesburg",
+            "Durban"
+        ],
+        "answer": "Pretoria"
+    },
+    {
+        "question": "What is the largest river in the world?",
+        "options": [
+            "Amazon River",
+            "Nile River",
+            "Yangtze River",
+            "Mississippi River"
+        ],
+        "answer": "Amazon River"
+    },
+    {
+        "question": "What is the primary ingredient in kimchi?",
+        "options": [
+            "Cabbage",
+            "Carrot",
+            "Radish",
+            "Cucumber"
+        ],
+        "answer": "Cabbage"
+    },
+    {
+        "question": "What is the capital of Argentina?",
+        "options": [
+            "Buenos Aires",
+            "Santiago",
+            "Lima",
+            "Bogota"
+        ],
+        "answer": "Buenos Aires"
+    },
+    {
+        "question": "What is the largest country in Africa by area?",
+        "options": [
+            "Algeria",
+            "Sudan",
+            "Libya",
+            "Chad"
+        ],
+        "answer": "Algeria"
+    },
+    {
+        "question": "What is the main ingredient in guacamole?",
+        "options": [
+            "Avocado",
+            "Tomato",
+            "Onion",
+            "Pepper"
+        ],
+        "answer": "Avocado"
+    },
+    {
+        "question": "What is the capital of Turkey?",
+        "options": [
+            "Ankara",
+            "Istanbul",
+            "Izmir",
+            "Bursa"
+        ],
+        "answer": "Ankara"
+    },
+    {
+        "question": "What is the largest lake in the world?",
+        "options": [
+            "Caspian Sea",
+            "Lake Superior",
+            "Lake Victoria",
+            "Lake Huron"
+        ],
+        "answer": "Caspian Sea"
+    },
+    {
+        "question": "What is the primary ingredient in risotto?",
+        "options": [
+            "Rice",
+            "Pasta",
+            "Barley",
+            "Quinoa"
+        ],
+        "answer": "Rice"
+    },
+    {
+        "question": "What is the capital of Greece?",
+        "options": [
+            "Athens",
+            "Thessaloniki",
+            "Patras",
+            "Heraklion"
+        ],
+        "answer": "Athens"
+    },
+    {
+        "question": "What is the largest city in Australia?",
+        "options": [
+            "Sydney",
+            "Melbourne",
+            "Brisbane",
+            "Perth"
+        ],
+        "answer": "Sydney"
+    },
+    {
+        "question": "What is the main ingredient in curry?",
+        "options": [
+            "Spices",
+            "Meat",
+            "Vegetables",
+            "Rice"
+        ],
+        "answer": "Spices"
+    },
+    {
+        "question": "What is the capital of Mexico?",
+        "options": [
+            "Mexico City",
+            "Guadalajara",
+            "Monterrey",
+            "Cancun"
+        ],
+        "answer": "Mexico City"
+    },
+    {
+        "question": "What is the largest country in South America by area?",
+        "options": [
+            "Brazil",
+            "Argentina",
+            "Peru",
+            "Colombia"
+        ],
+        "answer": "Brazil"
+    },
+    {
+        "question": "What is the primary ingredient in paella?",
+        "options": [
+            "Rice",
+            "Seafood",
+            "Chicken",
+            "Vegetables"
+        ],
+        "answer": "Rice"
+    },
+    {
+        "question": "What is the capital of Sweden?",
+        "options": [
+            "Stockholm",
+            "Gothenburg",
+            "Malmo",
+            "Uppsala"
+        ],
+        "answer": "Stockholm"
+    },
+    {
+        "question": "What is the largest city in Canada?",
+        "options": [
+            "Toronto",
+            "Vancouver",
+            "Montreal",
+            "Calgary"
+        ],
+        "answer": "Toronto"
+    },
+    {
+        "question": "Which planet is known as the Red Planet?",
+        "options": [
+            "Mars",
+            "Venus",
+            "Saturn",
+            "Jupiter"
+        ],
+        "answer": "Mars"
+    },
+    {
+        "question": "What gas do plants use to make food?",
+        "options": [
+            "Carbon Dioxide",
+            "Oxygen",
+            "Nitrogen",
+            "Helium"
+        ],
+        "answer": "Carbon Dioxide"
+    },
+    {
+        "question": "How many continents are there on Earth?",
+        "options": [
+            "7",
+            "6",
+            "8",
+            "5"
+        ],
+        "answer": "7"
+    },
+    {
+        "question": "Which organ pumps blood in the human body?",
+        "options": [
+            "Heart",
+            "Lungs",
+            "Brain",
+            "Liver"
+        ],
+        "answer": "Heart"
+    },
+    {
+        "question": "Who invented the light bulb?",
+        "options": [
+            "Thomas Edison",
+            "Albert Einstein",
+            "Isaac Newton",
+            "Nikola Tesla"
+        ],
+        "answer": "Thomas Edison"
+    },
+    {
+        "question": "Which is the largest ocean on Earth?",
+        "options": [
+            "Pacific Ocean",
+            "Atlantic Ocean",
+            "Indian Ocean",
+            "Arctic Ocean"
+        ],
+        "answer": "Pacific Ocean"
+    },
+    {
+        "question": "Which language has the most native speakers worldwide?",
+        "options": [
+            "Mandarin Chinese",
+            "English",
+            "Spanish",
+            "Hindi"
+        ],
+        "answer": "Mandarin Chinese"
+    },
+    {
+        "question": "How many sides does a hexagon have?",
+        "options": [
+            "6",
+            "5",
+            "8",
+            "7"
+        ],
+        "answer": "6"
+    },
+    {
+        "question": "Which is the smallest prime number?",
+        "options": [
+            "2",
+            "1",
+            "3",
+            "5"
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "What is the tallest mountain in the world?",
+        "options": [
+            "Mount Everest",
+            "K2",
+            "Kangchenjunga",
+            "Lhotse"
+        ],
+        "answer": "Mount Everest"
+    },
+    {
+        "question": "Which instrument has keys, pedals, and strings?",
+        "options": [
+            "Piano",
+            "Guitar",
+            "Violin",
+            "Drum"
+        ],
+        "answer": "Piano"
+    },
+    {
+        "question": "What is the freezing point of water in Celsius?",
+        "options": [
+            "0°C",
+            "32°C",
+            "100°C",
+            "-10°C"
+        ],
+        "answer": "0°C"
+    },
+    {
+        "question": "Which continent is the Sahara Desert located on?",
+        "options": [
+            "Africa",
+            "Asia",
+            "Australia",
+            "South America"
+        ],
+        "answer": "Africa"
+    },
+    {
+        "question": "What is the chemical symbol for iron?",
+        "options": [
+            "Fe",
+            "Ir",
+            "In",
+            "I"
+        ],
+        "answer": "Fe"
+    },
+    {
+        "question": "Which bird is known for mimicking sounds?",
+        "options": [
+            "Parrot",
+            "Eagle",
+            "Sparrow",
+            "Penguin"
+        ],
+        "answer": "Parrot"
+    },
+    {
+        "question": "What is the largest bone in the human body?",
+        "options": [
+            "Femur",
+            "Tibia",
+            "Humerus",
+            "Skull"
+        ],
+        "answer": "Femur"
+    },
+    {
+        "question": "Which country gifted the Statue of Liberty to the USA?",
+        "options": [
+            "France",
+            "England",
+            "Germany",
+            "Italy"
+        ],
+        "answer": "France"
+    },
+    {
+        "question": "What is the main ingredient in miso soup?",
+        "options": [
+            "Soybean paste",
+            "Rice",
+            "Seaweed",
+            "Fish"
+        ],
+        "answer": "Soybean paste"
+    },
+    {
+        "question": "Which planet is famous for its Great Red Spot?",
+        "options": [
+            "Jupiter",
+            "Mars",
+            "Saturn",
+            "Neptune"
+        ],
+        "answer": "Jupiter"
+    },
+    {
+        "question": "What does a thermometer measure?",
+        "options": [
+            "Temperature",
+            "Pressure",
+            "Speed",
+            "Length"
+        ],
+        "answer": "Temperature"
+    },
+    {
+        "question": "What is the main ingredient in a Caesar salad?",
+        "options": [
+            "Romaine lettuce",
+            "Spinach",
+            "Kale",
+            "Arugula"
+        ],
+        "answer": "Romaine lettuce"
+    },
+    {
+        "question": "What is the capital of Egypt?",
+        "options": [
+            "Cairo",
+            "Alexandria",
+            "Giza",
+            "Luxor"
+        ],
+        "answer": "Cairo"
+    }
+]

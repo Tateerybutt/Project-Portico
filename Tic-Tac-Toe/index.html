@@ -5,8 +5,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../logo.png" type="image/x-icon">
-    <link rel="Stylesheet" href="style.css">
-    <title>Tic-Tac-Toe  - Project Portico</title>
+    <link rel="Stylesheet" href="../style.css">
+    <title>Tic-Tac-Toe - Project Portico</title>
+    <style>
+        .board {
+            display: grid;
+            grid-template-columns: repeat(3, 100px);
+            grid-template-rows: repeat(3, 100px);
+            gap: 5px;
+            margin: auto;
+        }
+
+        .cell {
+            padding: 10px;
+            background-color: var(--color-white);
+            color: var(--color-accent);
+            border: 2px solid var(--color-accent);
+            font-weight: bold;
+            font-size: xx-large;
+            cursor: pointer;
+            border-radius: 50%;
+            margin: 10px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .cell:hover {
+            background-color: var(--color-accent);
+            color: var(--color-white);
+        }
+    </style>
 </head>
 
 <body>
@@ -14,7 +41,7 @@
     <header id="header">
         <img src="../logo.png" alt="Project Portico logo">
         <h1>Project Portico</h1>
-    </header> 
+    </header>
     <nav id="navbar">
         <a href="../index.html">Home</a>
         <a href="../projects.html">Projects</a>
@@ -24,10 +51,11 @@
     </nav>
     <br><br><br>
 
-    <div class="game-container">
+    <div class="container" style="width: fit-content;">
+        <h1>Tic-Tac-Toe</h1>
         <div id="board" class="board"></div>
         <div id="result"></div>
-        <div class="center"><button id="restartBtn" onclick="restartGame()">Restart Game</button></div>
+        <button id="restartBtn" style="display: none; margin: 10px auto;" onclick="restartGame()">Restart Game</button>
     </div>
     <br><br><br>
 

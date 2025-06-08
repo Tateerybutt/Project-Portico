@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../style.css">
     <link rel="shortcut icon" href="../logo.png" type="image/x-icon">
     <title>Luxury Calculator  - Project Portico</title>
 </head>
@@ -22,35 +22,36 @@
         <a href="../blog.html">Blog</a>
     </nav>
     <br><br><br>
-    <div class="calculator">
+    <div class="container">
+        <h1>Calculator</h1>
         <input type="text" id="display" readonly placeholder="display...">
         <br>
         <button onclick="clearDisplay()" class="clr-btn">Clear the display</button>
         <br>
-        <button onclick="appendToDisplay('7')">7</button>
-        <button onclick="appendToDisplay('8')">8</button>
-        <button onclick="appendToDisplay('9')">9</button>
-        <button onclick="appendToDisplay('/')">/</button>
+        <button onclick="append('7')">7</button>
+        <button onclick="append('8')">8</button>
+        <button onclick="append('9')">9</button>
+        <button onclick="append('/')">/</button>
         <br>
-        <button onclick="appendToDisplay('4')">4</button>
-        <button onclick="appendToDisplay('5')">5</button>
-        <button onclick="appendToDisplay('6')">6</button>
-        <button onclick="appendToDisplay('*')">*</button>
+        <button onclick="append('4')">4</button>
+        <button onclick="append('5')">5</button>
+        <button onclick="append('6')">6</button>
+        <button onclick="append('*')">*</button>
         <br>
-        <button onclick="appendToDisplay('1')">1</button>
-        <button onclick="appendToDisplay('2')">2</button>
-        <button onclick="appendToDisplay('3')">3</button>
-        <button onclick="appendToDisplay('-')">-</button>
+        <button onclick="append('1')">1</button>
+        <button onclick="append('2')">2</button>
+        <button onclick="append('3')">3</button>
+        <button onclick="append('-')">-</button>
         <br>
-        <button onclick="appendToDisplay('0')">0</button>
-        <button onclick="appendToDisplay('.')">.</button>
+        <button onclick="append('0')">0</button>
+        <button onclick="append('.')">.</button>
         <button onclick="calculate()">=</button>
-        <button onclick="appendToDisplay('+')">+</button>
+        <button onclick="append('+')">+</button>
         <br>
         <button onclick="squareRoot()">√</button>
         <button onclick="exponentiation()">x²</button>
 
-        <div class="history" id="history">
+        <div class="container" id="history">
             <strong>History:</strong>
         </div>
     </div>

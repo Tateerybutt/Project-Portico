@@ -19,7 +19,7 @@ body {
     text-align: center;
     background-color: #49c7f9;
     border: 1px solid #ced4da;
-    color: #fff;
+    color: #000;
     padding: 10px;
     border-radius: 10px;
     overflow: hidden;
@@ -48,15 +48,15 @@ body {
 }
 
 .modal-body {
-    color: #fff;
+    color: #000;
     background-color: #49c7f9;
 }
 
 .modal-header {
-    color: #fff;
+    color: #000;
     background-color: #49c7f9;
 }
 
 .close {
-    color: #fff;
+    color: #000;
 }

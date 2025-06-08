@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-...your-sha-hash-here..." crossorigin="anonymous" />
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../style.css">
     <link rel="shortcut icon" href="../logo.png" type="image/x-icon">
     <title>Temperature Converter  - Project Portico</title>
 </head>
@@ -25,10 +25,10 @@
     <br><br><br>
 
 
-    <div class="google-converter-container">
+    <div class="container">
         <h2>Temperature Converter</h2><br>
 
-        <div class="input-box">
+        <div class="container">
             <select id="inputUnit" onchange="convertTemperature()">
                 <option value="celsius">Celsius</option>
                 <option value="fahrenheit">Fahrenheit</option>
@@ -40,11 +40,11 @@
             </div>
         </div>
 
-        <div class="arrow-container" onclick="swapUnits()">
-            <div class="arrow">&#8652;</div>
-        </div>
+        <button class="arrow-container" onclick="swapUnits()">
+            &#8652;
+        </button>
 
-        <div class="output-box">
+        <div class="container">
             <select id="outputUnit" onchange="convertTemperature()">
                 <option value="fahrenheit">Fahrenheit</option>
                 <option value="celsius">Celsius</option>

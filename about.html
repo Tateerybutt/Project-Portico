@@ -4,115 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body {
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: cover;
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-        
-        h1 {
-            font-size: 48px;
-        }
-        
-        header img {
-            margin-top: 5px;
-            max-width: 100px;
-            max-height: 100px;
-        }
-        
-        header {
-            background-color: #fff;
-            color: #000;
-            padding: 20px;
-            text-align: center;
-        }
-        
-        nav {
-            background-color: #70d249;
-            padding: 10px;
-            text-align: center;
-            overflow: hidden;
-        }
-        
-        .sticky {
-            position: fixed;
-            top: 0;
-            width: 100%;
-        }
-        
-        .sticky+.content {
-            padding-top: 60px;
-        }
-        
-        nav a {
-            font-weight: bold;
-            color: #fff;
-            text-decoration: none;
-            padding: 10px 20px;
-            border-left: #70d249 solid 2px;
-            border-right: #70d249 solid 2px;
-            margin: 3px 5px;
-        }
-        
-        .active {
-            text-decoration: underline 3px;
-        }
-        
-        nav a:hover {
-            border-left: #fff solid 2px;
-            border-right: #fff solid 2px;
-        }
-        
-        #about {
-            background-color: #fff;
-            width: 50%;
-            margin: 30.5px auto;
-            color: #70d249;
-            text-align: center;
-            border-radius: 5px;
-            padding: 14px;
-            border: #70d249 solid 3px;
-            /* box-shadow: 4px 6px 8px 0 rgba(0, 0, 0, 0.5); */
-        }
-        
-        #about img {
-            max-width: 100px;
-            margin: 0;
-        }
-        
-        #about a {
-            color: #70d249;
-            text-decoration: none;
-            font-weight: bolder;
-        }
-        
-        #about a:hover {
-            text-decoration: overline;
-        }
-        
-        footer {
-            background-color: #70d249;
-            color: #fff;
-            text-align: center;
-            padding: 1em;
-            bottom: 0;
-        }
-        
-        @media screen and (max-width:600px) {
-            header h1 {
-                font-size: 35px;
-            }
-            header img {
-                display: none;
-            }
-        }
-    </style>
-    <title>Project Portico  - Project Portico</title>
+    <title>Project Portico - Project Portico</title>
     <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -127,16 +21,29 @@
         <a class="active" href="about.html">About</a>
         <a href="blog.html">Blog</a>
     </nav>
-    <section id="about">
+    <section id="about" class="container">
         <img src="logo.png" alt="Project Portico logo">
         <h2>Project Portico</h2>
-        <p>Welcome to <b>Project Portico</b>, a vibrant collection of simple yet engaging Single Page Applications (SPAs) designed to ignite your passion for web development. Our project is a treasure trove of ideas and examples that cater to beginners,
-            offering a hands-on approach to learning the essentials of HTML, CSS, and JavaScript. At <b>Project Portico</b>, we believe that the best way to learn is by doing. That’s why we’ve curated a variety of mini-projects, each with its unique charm
-            and functionality. From intuitive to-do lists to dynamic weather apps, our projects are crafted to provide you with practical experience and a solid foundation in web development. Each project is an opportunity to understand core concepts,
-            experiment with code, and see your creations come to life. Our mission is to make web development accessible and enjoyable for everyone. Whether you’re just starting or looking to polish your skills, <b>Project Portico</b> offers a friendly
-            and supportive environment to grow your abilities. We encourage you to explore, tinker, and most importantly, have fun with your learning journey. We are always excited to hear from our community. If you have a brilliant idea for a new project
-            or simply want to connect with fellow developers, don’t hesitate to reach out. Your feedback and suggestions are invaluable to us. You can contact us through our Email or Contact Page, and together, we can continue to build a resource that
-            benefits everyone. Thank you for visiting <b>Project Portico</b>. Dive in, explore our projects, and start creating today!</p>
+        <p>Welcome to <b>Project Portico</b>, a vibrant collection of simple yet engaging Single Page Applications
+            (SPAs) designed to ignite your passion for web development. Our project is a treasure trove of ideas and
+            examples that cater to beginners,
+            offering a hands-on approach to learning the essentials of HTML, CSS, and JavaScript. At <b>Project
+                Portico</b>, we believe that the best way to learn is by doing. That’s why we’ve curated a variety of
+            mini-projects, each with its unique charm
+            and functionality. From intuitive to-do lists to dynamic weather apps, our projects are crafted to provide
+            you with practical experience and a solid foundation in web development. Each project is an opportunity to
+            understand core concepts,
+            experiment with code, and see your creations come to life. Our mission is to make web development accessible
+            and enjoyable for everyone. Whether you’re just starting or looking to polish your skills, <b>Project
+                Portico</b> offers a friendly
+            and supportive environment to grow your abilities. We encourage you to explore, tinker, and most
+            importantly, have fun with your learning journey. We are always excited to hear from our community. If you
+            have a brilliant idea for a new project
+            or simply want to connect with fellow developers, don’t hesitate to reach out. Your feedback and suggestions
+            are invaluable to us. You can contact us through our Email or Contact Page, and together, we can continue to
+            build a resource that
+            benefits everyone. Thank you for visiting <b>Project Portico</b>. Dive in, explore our projects, and start
+            creating today!</p>
     </section>
     <br><br><br>
 
@@ -145,7 +52,7 @@
     </footer>
 
     <script>
-        window.onscroll = function() {
+        window.onscroll = function () {
             stick()
         };
 

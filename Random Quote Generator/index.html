@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Random Quotes App  - Project Portico</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Random Quotes App - Project Portico</title>
+    <link rel="stylesheet" href="../style.css">
     <link rel="shortcut icon" href="../logo.png" type="image/x-icon">
 </head>
 
@@ -13,7 +13,7 @@
     <header id="header">
         <img src="../logo.png" alt="Project Portico logo">
         <h1>Project Portico</h1>
-    </header> 
+    </header>
     <nav id="navbar">
         <a href="../index.html">Home</a>
         <a href="../projects.html">Projects</a>
@@ -23,13 +23,18 @@
     </nav>
     <br><br><br>
 
-    <div id="quote-container">
-        <p id="quote-text">
-        </p>
-        <button onclick="getRandomQuote()">Get Random Quote</button>
-        <div id="author-details"></div>
+    <div id="quote-container" class="container">
+        <h1>Random Quote Generator</h1>
+        <p id="quote-text"></p>
+        <button onclick="getRandomQuote()" id="getBtn">Get Random Quote</button>
+        <div id="author-details" class="container" style="display: none;">
+            <h2>Author Details</h2>
+            <p id="author-name">Author: N/A</p>
+            <p id="author-bio">Bio: N/A</p>
+            <p id="author-quotes">Number of quotes: N/A</p>
+        </div>
     </div>
-    <br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
     <footer>
         <p>&copy; 2024 Project Portico. All rights reserved.</p>

@@ -4,16 +4,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recipe Finder  - Project Portico</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Recipe Finder - Project Portico</title>
+    <link rel="stylesheet" href="../style.css">
     <link rel="shortcut icon" href="../logo.png" type="image/x-icon">
+    <style>
+        .modal {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 9999;
+        }
+
+        .modal-content {
+            text-align: center;
+            background-color: var(--color-white);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+            max-width: 80%;
+            max-height: 80%;
+            overflow: auto;
+            position: relative;
+
+            ul {
+                text-align: left;
+            }
+        }
+
+        .close-btn {
+            width: 5px;
+            height: 5px;
+            border: #343a40 3px solid;
+            border-radius: 50%;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            font-size: 24px;
+            cursor: pointer;
+            color: #888;
+        }
+
+        #errmsg {
+            color: red;
+            text-align: center;
+        }
+    </style>
 </head>
 
 <body>
     <header id="header">
         <img src="../logo.png" alt="Project Portico logo">
         <h1>Project Portico</h1>
-    </header> 
+    </header>
     <nav id="navbar">
         <a href="../index.html">Home</a>
         <a href="../projects.html">Projects</a>
@@ -29,7 +77,7 @@
         <div id="recipeList"></div>
         <div id="errmsg"></div>
     </div>
-    <br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
     <footer>
         <p>&copy; 2024 Project Portico. All rights reserved.</p>

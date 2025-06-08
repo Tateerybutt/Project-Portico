@@ -30,7 +30,7 @@ function displayRecipes(recipes) {
 
     recipes.forEach(recipe => {
         const recipeItem = document.createElement('div');
-        recipeItem.classList.add('recipe-item');
+        recipeItem.classList.add('card');
 
         const title = document.createElement('h3');
         title.textContent = recipe.title;

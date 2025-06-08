@@ -4,16 +4,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Expense Tracker  - Project Portico</title>
+    <title>Expense Tracker - Project Portico</title>
     <link rel="shortcut icon" href="../logo.png" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
+    <style>
+        #expenses-list {
+            margin-top: 20px;
+        }
+
+        .expense-item {
+            padding: 10px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0, 0, 0, 0.4);
+        }
+
+        .modal-content {
+            background-color: var(--color-white);
+            margin: 15% auto;
+            padding: 20px;
+            border: 1px solid var(--color-border);
+            width: 80%;
+        }
+
+        .close {
+            color: var(--color-accent);
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+            transition: color 0.3s ease-in-out;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: var(--color-secondary);
+            text-decoration: none;
+            cursor: pointer;
+        }
+    </style>
 </head>
 
 <body>
     <header id="header">
         <img src="../logo.png" alt="Project Portico logo">
         <h1>Project Portico</h1>
-    </header> 
+    </header>
     <nav id="navbar">
         <a href="../index.html">Home</a>
         <a href="../projects.html">Projects</a>
@@ -25,19 +70,19 @@
 
     <div class="container">
         <h1>Expense Tracker</h1>
-        <div id="expense-form">
+        <form>
             <input type="text" id="description" placeholder="Description">
             <input type="number" id="amount" placeholder="Amount">
             <select id="category">
-      <option value="Food">Food</option>
-      <option value="Transport">Transport</option>
-      <option value="Entertainment">Entertainment</option>
-      <option value="Utilities">Utilities</option>
-      <!-- Add more categories as needed -->
-    </select>
-            <button onclick="openModal()">Add New Category</button>
-            <button onclick="addExpense()">Add Expense</button>
-        </div>
+                <option value="Food">Food</option>
+                <option value="Transport">Transport</option>
+                <option value="Entertainment">Entertainment</option>
+                <option value="Utilities">Utilities</option>
+                <!-- Add more categories as needed -->
+            </select><br>
+            <button type="button" onclick="openModal()">Add New Category</button>
+            <button type="button" onclick="addExpense()">Add Expense</button>
+        </form>
         <div id="expenses-list">
             <!-- Expenses will be displayed here -->
         </div>

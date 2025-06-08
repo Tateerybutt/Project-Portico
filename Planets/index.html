@@ -4,16 +4,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weight and Age on Other Planets  - Project Portico</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Interstellar Weight n' Age Simulator - Project Portico</title>
+    <link rel="stylesheet" href="../style.css">
     <link rel="shortcut icon" href="../logo.png" type="image/x-icon">
+    <STYle>
+        .card {
+            padding: 10px 20px;
+
+            img {
+                border-radius: 50%;
+                width: 100%;
+                height: 100%;
+            }
+        }
+    </STYle>
 </head>
 
 <body>
     <header id="header">
         <img src="../logo.png" alt="Project Portico logo">
         <h1>Project Portico</h1>
-    </header> 
+    </header>
     <nav id="navbar">
         <a href="../index.html">Home</a>
         <a href="../projects.html">Projects</a>
@@ -23,8 +34,8 @@
     </nav>
     <br><br><br>
 
-    <div class="converter-container">
-        <h1 class="heading">Calculate Your Weight and Age on Other Planets</h1>
+    <div class="container">
+        <h1>Interstellar Weight & Age Simulator</h1>
         <div id="inputs">
             <label for="age"><b>Your Age (in years):</b></label>
             <input type="number" id="age" required>
@@ -33,58 +44,60 @@
             <input type="number" id="weight" required>
         </div>
     </div>
-    <div class="planet-box" id="mercury" onclick="calculatePlanetValues('Mercury')">
-        <img class="planet-image" src="mercury.jpeg" alt="Mercury">
-        <h2>Mercury</h2>
-        <div id="mercury-results" style="color: silver;"></div>
+    <div class="card-container">
+        <div class="card" style="" id="mercury" onclick="calculatePlanetValues('Mercury')">
+            <img class="planet-image" src="images/mercury.jpeg" alt="Mercury">
+            <h2>Mercury</h2>
+            <div id="mercury-results"></div>
+        </div>
+        <div class="card" style="" id="venus" onclick="calculatePlanetValues('Venus')">
+            <img class="planet-image" src="images/venus.png" alt="Venus">
+            <h2>Venus</h2>
+            <div id="venus-results"></div>
+        </div>
+        <div class="card" style="" id="earth" onclick="calculatePlanetValues('Earth')">
+            <img class="planet-image" src="images/earth.jpeg" alt="Earth">
+            <h2>Earth</h2>
+            <div id="earth-results"></div>
+        </div>
+        <div class="card" style="" id="mars" onclick="calculatePlanetValues('Mars')">
+            <img class="planet-image" src="images/mars.jpeg" alt="Mars">
+            <h2>Mars</h2>
+            <div id="mars-results"></div>
+        </div>
+        <div class="card" style="" id="jupiter" onclick="calculatePlanetValues('Jupiter')">
+            <img class="planet-image" src="images/jupiter.jpeg" alt="Jupiter">
+            <h2>Jupiter</h2>
+            <div id="jupiter-results"></div>
+        </div>
+        <div class="card" style="" id="saturn" onclick="calculatePlanetValues('Saturn')">
+            <img class="planet-image" src="images/saturn.jpg" alt="Saturn">
+            <h2>Saturn</h2>
+            <div id="saturn-results"></div>
+        </div>
+        <div class="card" style="" id="uranus" onclick="calculatePlanetValues('Uranus')">
+            <img class="planet-image" src="images/uranus.jpg" alt="Uranus">
+            <h2>Uranus</h2>
+            <div id="uranus-results"></div>
+        </div>
+        <div class="card" style="" id="neptune" onclick="calculatePlanetValues('Neptune')">
+            <img class="planet-image" src="images/neptune.jpg" alt="Neptune">
+            <h2>Neptune</h2>
+            <div id="neptune-results"></div>
+        </div>
+        <div class="card" style="" id="pluto" onclick="calculatePlanetValues('Pluto')">
+            <img class="planet-image" src="images/pluto.jpeg" alt="Pluto">
+            <h2>Pluto</h2>
+            <div id="pluto-results"></div>
+        </div>
     </div>
-    <div class="planet-box" id="venus" onclick="calculatePlanetValues('Venus')">
-        <img class="planet-image" src="venus.png" alt="Venus">
-        <h2>Venus</h2>
-        <div id="venus-results"></div>
-    </div>
-    <div class="planet-box" id="earth" onclick="calculatePlanetValues('Earth')">
-        <img class="planet-image" src="earth.jpeg" alt="Earth">
-        <h2>Earth</h2>
-        <div id="earth-results"></div>
-    </div>
-    <div class="planet-box" id="mars" onclick="calculatePlanetValues('Mars')">
-        <img class="planet-image" src="mars.jpeg" alt="Mars">
-        <h2>Mars</h2>
-        <div id="mars-results"></div>
-    </div>
-    <div class="planet-box" id="jupiter" onclick="calculatePlanetValues('Jupiter')">
-        <img class="planet-image" src="jupiter.jpeg" alt="Jupiter">
-        <h2>Jupiter</h2>
-        <div id="jupiter-results"></div>
-    </div>
-    <div class="planet-box" id="saturn" onclick="calculatePlanetValues('Saturn')">
-        <img class="planet-image" src="saturn.jpg" alt="Saturn">
-        <h2>Saturn</h2>
-        <div id="saturn-results"></div>
-    </div>
-    <div class="planet-box" id="uranus" onclick="calculatePlanetValues('Uranus')">
-        <img class="planet-image" src="uranus.jpg" alt="Uranus">
-        <h2>Uranus</h2>
-        <div id="uranus-results"></div>
-    </div>
-    <div class="planet-box" id="neptune" onclick="calculatePlanetValues('Neptune')">
-        <img class="planet-image" src="neptune.jpg" alt="Neptune">
-        <h2>Neptune</h2>
-        <div id="neptune-results"></div>
-    </div>
-    <div class="planet-box" id="pluto" onclick="calculatePlanetValues('Pluto')">
-        <img class="planet-image" src="pluto.jpeg" alt="Pluto">
-        <h2>Pluto</h2>
-        <div id="pluto-results"></div>
-    </div>
-    <br><br><br>
+        <br><br><br>
 
-    <footer>
-        <p>&copy; 2024 Project Portico. All rights reserved.</p>
-    </footer>
+        <footer>
+            <p>&copy; 2024 Project Portico. All rights reserved.</p>
+        </footer>
 
-    <script src="script.js"></script>
+        <script src="script.js"></script>
 </body>
 
 </html>
